@@ -2,18 +2,13 @@ Analysis initiated from SIMULIA established products
 Abaqus JOB ThermalAnalysis
 Abaqus Learning Edition 2024
 Begin Analysis Input File Processor
-5/12/2025 5:14:43 PM
+5/12/2025 9:29:16 PM
 Run pre.exe
-5/12/2025 5:14:44 PM
+5/12/2025 9:29:18 PM
 End Analysis Input File Processor
 Begin Abaqus/Standard Analysis
-5/12/2025 5:14:44 PM
+5/12/2025 9:29:18 PM
 Run standard.exe
-5/12/2025 5:23:12 PM
-End Abaqus/Standard Analysis
-Begin SIM Wrap-up
-5/12/2025 5:23:12 PM
-Run SMASimUtility.exe
-5/12/2025 5:23:12 PM
-End SIM Wrap-up
-Abaqus JOB ThermalAnalysis COMPLETED
+5/12/2025 9:29:37 PM
+Abaqus Error: Abaqus/Standard Analysis exited with an error - Please see the 
+message file for possible error messages if the file exists.
