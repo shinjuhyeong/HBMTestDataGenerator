@@ -1,6 +1,6 @@
 1
 
-   Abaqus Learning Edition 2024                                  Date 13-May-2025   Time 23:55:13
+   Abaqus Learning Edition 2024                                  Date 14-5-2025   Time 00:08:36
    
 
 
@@ -79,32 +79,40 @@
   *boundary, amplitude=THERMALCYCLE
   *tie, name=ASSEMBLY_CUSITIE, adjust=YES
 
+ ***WARNING: THE RATIO OF THE MAXIMUM INCREMENTAL ADJUSTMENT TO THE AVERAGE 
+             CHARACTERISTIC LENGTH IS 1.25181E-02 AT NODE 9 INSTANCE SI ON THE 
+             SURFACE PAIR 
+             (ASSEMBLY_SI_CONTACTSURFSI,ASSEMBLY_CU_CONTACTSURFCU). MAGNITUDES 
+             OF STRAIN-FREE NODAL POSITION ADJUSTMENTS CAN BE OBSERVED IN 
+             CONTOUR PLOTS AND SYMBOL PLOTS OF THE "STRAINFREE" OUTPUT VARIABLE 
+             AT TIME=0.
+
 
   SECONDARY: ASSEMBLY_SI_CONTACTSURFSI                                                       
   MAIN :     ASSEMBLY_CU_CONTACTSURFCU                                                       
               DISTANCE
    NODE       ADJUSTED    REMARKS/WARNINGS
 
-       210   0.44095      ADJUSTED TO (  14.397    ,  100.02    ,  8.7975    ).
-       211   0.46598      ADJUSTED TO (  8.0354    ,  100.03    ,  14.699    ).
-       212   0.36910      ADJUSTED TO (-1.83964E-04,  100.04    ,  16.633    ).
-       213   0.47675      ADJUSTED TO ( -8.0252    ,  100.02    ,  14.687    ).
-       214   0.44191      ADJUSTED TO ( -14.425    ,  100.00    ,  8.8264    ).
-       215   2.24145E-03  ADJUSTED TO ( -17.000    ,  100.00    , 3.68846E-16).
-       216   0.44191      ADJUSTED TO ( -14.425    ,  100.00    , -8.8264    ).
-       217   0.47675      ADJUSTED TO ( -8.0252    ,  100.02    , -14.687    ).
-       218   0.36910      ADJUSTED TO (-1.83964E-04,  100.04    , -16.633    ).
-       219   0.46598      ADJUSTED TO (  8.0354    ,  100.03    , -14.699    ).
-       220   0.44095      ADJUSTED TO (  14.397    ,  100.02    , -8.7975    ).
-       221   2.59063E-03  ADJUSTED TO (  17.000    ,  99.997    ,-8.46849E-15).
-       277   0.44779      ADJUSTED TO (  13.454    ,  90.047    ,  8.6850    ).
-       278   0.51683      ADJUSTED TO (  6.9837    ,  90.096    ,  14.118    ).
-       279   0.35224      ADJUSTED TO (-0.70121    ,  90.129    ,  15.670    ).
-       280   0.42871      ADJUSTED TO ( -8.0812    ,  90.151    ,  13.537    ).
-       281   0.41072      ADJUSTED TO ( -13.773    ,  90.156    ,  8.0421    ).
-       282   2.06485E-03  ADJUSTED TO ( -16.040    ,  90.161    ,-8.48605E-16).
-       283   0.41072      ADJUSTED TO ( -13.773    ,  90.156    , -8.0421    ).
-       284   0.42871      ADJUSTED TO ( -8.0812    ,  90.151    , -13.537    ).
+        73    1.5258      ADJUSTED TO (  15.982    ,  100.06    ,  13.488    ).
+        74    1.2274      ADJUSTED TO (  5.4541    ,  100.16    ,  19.334    ).
+        75    1.2247      ADJUSTED TO ( -5.4479    ,  100.14    ,  19.343    ).
+        76    1.5706      ADJUSTED TO ( -15.953    ,  99.978    ,  13.523    ).
+        77   1.12044E-02  ADJUSTED TO ( -21.002    ,  100.01    ,-1.40530E-14).
+        78    1.5706      ADJUSTED TO ( -15.953    ,  99.978    , -13.523    ).
+        79    1.2247      ADJUSTED TO ( -5.4479    ,  100.14    , -19.343    ).
+        80    1.2274      ADJUSTED TO (  5.4541    ,  100.16    , -19.334    ).
+        81    1.5258      ADJUSTED TO (  15.982    ,  100.06    , -13.488    ).
+        82   1.71488E-02  ADJUSTED TO (  20.997    ,  99.983    ,-1.42247E-15).
+       119    1.4662      ADJUSTED TO (  13.467    ,  85.949    ,  12.903    ).
+       120    1.1309      ADJUSTED TO (  3.2770    ,  86.145    ,  17.657    ).
+       121    1.0084      ADJUSTED TO ( -6.4421    ,  86.280    ,  16.787    ).
+       122    1.1351      ADJUSTED TO ( -15.069    ,  86.289    ,  11.196    ).
+       123   8.78743E-03  ADJUSTED TO ( -18.823    ,  86.353    , 1.72388E-15).
+       124    1.1351      ADJUSTED TO ( -15.069    ,  86.289    , -11.196    ).
+       125    1.0084      ADJUSTED TO ( -6.4421    ,  86.280    , -16.787    ).
+       126    1.1309      ADJUSTED TO (  3.2770    ,  86.145    , -17.657    ).
+       127    1.4662      ADJUSTED TO (  13.467    ,  85.949    , -12.903    ).
+       128   1.48936E-02  ADJUSTED TO (  18.748    ,  85.818    ,-2.53964E-15).
 
 
 
@@ -119,7 +127,7 @@
              NODES WITH VERY SMALL ADJUSTMENTS WERE NOT PRINTED. SPECIFY 
              *PREPRINT,MODEL=YES FOR COMPLETE PRINTOUT.
 
- ***WARNING: 122 nodes have been adjusted. The nodes have been identified in 
+ ***WARNING: 77 nodes have been adjusted. The nodes have been identified in 
              node set WarnNodeAdjust.
   *tie, name=ASSEMBLY_CUSITIE, adjust=YES
   *tie, name=ASSEMBLY_CUSITIE, adjust=YES
@@ -162,7 +170,7 @@
            CONSTRAINTS CAN CAUSE SEVERE ELEMENT DISTORTION. IT MAY BE NECESSARY 
            TO REMESH IN ORDER TO REDUCE THE AMOUNT OF ADJUSTMENT. 
 
- ***WARNING: 13 elements are distorted. Either the isoparametric angles are out 
+ ***WARNING: 9 elements are distorted. Either the isoparametric angles are out 
              of the suggested limits or the triangular or tetrahedral quality 
              measure is bad. The elements have been identified in element set 
              WarnElemDistorted.
@@ -172,19 +180,15 @@
   
    Element     Min/max angle   Adjusted nodes 
  ------------ ---------------- -------------- 
-        CU.13          42.6179       NO       
-        CU.26          43.3908       NO       
-        CU.39          43.9383       NO       
-        CU.52          44.2805       NO       
-        CU.65          44.4369       NO       
-        CU.78          44.3301       NO       
-        CU.91          44.0547       NO       
-       CU.104          43.6244       NO       
-       CU.117          43.0402       NO       
-       CU.130          42.5409       NO       
-        SI.48          44.2392       NO       
-       SI.101          44.5912       NO       
-       SI.154          44.9644       NO       
+         SI.6          42.9787      YES       
+        SI.20          43.4192      YES       
+        SI.30           42.155       NO       
+        SI.55          42.4941       NO       
+        SI.88          38.9108       NO       
+       SI.121          37.3742       NO       
+       SI.154          37.3387       NO       
+       SI.187          38.7272       NO       
+       SI.220          42.3881       NO       
   
   
   *step, name=TCTCondition, nlgeom=NO, inc=100000
@@ -208,7 +212,7 @@
   *endstep
 
  ***WARNING: Boundary conditions are specified on inactive dof greater than 6 
-             at 132 nodes. The nodes have been identified in node set 
+             at 80 nodes. The nodes have been identified in node set 
              WarnNodeBCInactiveDofAbove6.
 
 
@@ -216,10 +220,10 @@
                             P R O B L E M   S I Z E
 
 
-          NUMBER OF ELEMENTS IS                                   660
-          NUMBER OF NODES IS                                      946
-          NUMBER OF NODES DEFINED BY THE USER                     946
-          TOTAL NUMBER OF VARIABLES IN THE MODEL                 3784
+          NUMBER OF ELEMENTS IS                                   259
+          NUMBER OF NODES IS                                      440
+          NUMBER OF NODES DEFINED BY THE USER                     440
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                 1760
           (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
            VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
 
@@ -230,13 +234,13 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =     0.40    
+       USER TIME (SEC)      =     0.20    
        SYSTEM TIME (SEC)    =     0.10    
-       TOTAL CPU TIME (SEC) =     0.50    
-       WALLCLOCK TIME (SEC) =            1
+       TOTAL CPU TIME (SEC) =     0.30    
+       WALLCLOCK TIME (SEC) =            0
 1
 
-   Abaqus Learning Edition 2024                                  Date 13-May-2025   Time 23:55:15
+   Abaqus Learning Edition 2024                                  Date 14-5-2025   Time 00:08:37
    
 
      Thermal and mechanical analysis                                                           STEP    1  INCREMENT    1
@@ -250,7 +254,7 @@
 
      AUTOMATIC TIME CONTROL WITH -
           A SUGGESTED INITIAL TIME INCREMENT OF                0.100    
-          AND A TOTAL TIME PERIOD OF                            210.    
+          AND A TOTAL TIME PERIOD OF                            175.    
           THE MINIMUM TIME INCREMENT ALLOWED IS                1.000E-05
           THE MAXIMUM TIME INCREMENT ALLOWED IS                 1.00    
 
@@ -270,7 +274,7 @@
               OPERATIONS           REQUIRED          MINIMIZE I/O
              PER ITERATION           (MB)               (MB)
   
-     1          9.27E+08               19                 60
+     1          1.68E+08               19                 36
   
  NOTE:
       (1) SINCE ABAQUS DOES NOT PRE-ALLOCATE MEMORY AND ONLY ALLOCATES MEMORY AS NEEDED DURING THE ANALYSIS,
@@ -301,3 +305,22 @@
           BETWEEN THE ESTIMATED "MEMORY TO MINIMIZE I/O" AND THE MEMORY UPPER LIMIT. HOWEVER ACCURATE
           ESTIMATE OF THE SCRATCH DISK SPACE IS NOT POSSIBLE.
       (6) USING "*RESTART, WRITE" CAN GENERATE A LARGE AMOUNT OF DATA WRITTEN IN THE WORK DIRECTORY.
+
+
+          THE ANALYSIS IS ENDED BECAUSE OF THE PROBLEMS ENCOUNTERED
+          LOOK AT THE MSG FILE FOR THE CAUSE OF THE TERMINATION
+
+
+
+                              ANALYSIS IS ENDED
+                              WITH      1 ERROR MESSAGES ON THE MSG FILE
+                              AND       8 WARNING MESSAGES ON THE DAT FILE
+                              AND     692 WARNING MESSAGES ON THE MSG FILE
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =      65.    
+       SYSTEM TIME (SEC)    =      3.4    
+       TOTAL CPU TIME (SEC) =      68.    
+       WALLCLOCK TIME (SEC) =           84

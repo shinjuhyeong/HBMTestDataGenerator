@@ -275,7 +275,7 @@ simulation_conditions = []
 for r1 in range(10, 20, 2):
     for r2 in range(r1, r1 + 5):
         for r3 in range(r2 - 5, r2 + 5, 2):
-            for y2 in range(30, 90, 10):
+            for y2 in range(30, 60, 10):
                 if abs(r1 - r2) <= 2 and abs(r2 - r3) <= 2: #안나옴
                     continue
                 else:               
