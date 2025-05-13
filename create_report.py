@@ -41,8 +41,12 @@ def save_initial_coordinates(odb_path, output_file):
         odb_path (str): Path to the ODB file.
         output_file (str): Path to the output text file.
     """
+    lock_file = odb_path.replace('.odb', '.lck')
+    if os.path.exists(lock_file):
+        os.remove(lock_file)
+
     # Open the ODB file
-    print(f"Opening ODB file: {odb_path}")
+    #print(f"Opening ODB file: {odb_path}")
     odb = openOdb(path=odb_path)
 
     with open(output_file, 'w') as f:
@@ -70,7 +74,7 @@ def save_initial_coordinates(odb_path, output_file):
                 f.write(f"{instance_name}, {element_label}, {centroidx}, {centroidy}, {centroidz} \n")
 
     odb.close()
-    print("Finished processing ODB file.")
+    #print("Finished processing ODB file.")
 
 def extract_failed_elements(odb_path, output_file):
 

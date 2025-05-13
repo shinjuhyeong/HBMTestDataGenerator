@@ -1,6 +1,6 @@
 1
 
-   Abaqus Learning Edition 2024                                  Date 12-May-2025   Time 21:29:19
+   Abaqus Learning Edition 2024                                  Date 13-May-2025   Time 20:59:56
    
 
  Thermal and mechanical analysis                                                 
@@ -104,7 +104,7 @@
 
      LINEAR EXTRAPOLATION WILL BE USED
 
-     CHARACTERISTIC ELEMENT LENGTH      20.6    
+     CHARACTERISTIC ELEMENT LENGTH      18.2    
 
      DETAILS REGARDING ACTUAL SOLUTION WAVEFRONT REQUESTED
 
@@ -121,29 +121,29 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  38ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  47ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.943E+03   TIME AVG. FORCE       1.943E+03
- LARGEST SCALED RESIDUAL FORCE      3.765E-10   AT NODE        526   DOF  2
+ AVERAGE FORCE                      1.571E+03   TIME AVG. FORCE       1.571E+03
+ LARGEST SCALED RESIDUAL FORCE     -2.933E-10   AT NODE        112   DOF  2
    INSTANCE: SI                                                                              
-  CORRESPONDING RESIDUAL FORCE      3.765E-10
- LARGEST INCREMENT OF DISP.        -2.468E-02   AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE     -2.933E-10
+ LARGEST INCREMENT OF DISP.        -2.438E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -2.468E-02   AT NODE          7   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.438E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE HEAT FLUX                  6.977E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  5.464E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          40.0       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.          40.0       AT NODE        202   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         40.0       AT NODE        217   DOF 11
+ LARGEST CORRECTION TO TEMP.         40.0       AT NODE        202   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -167,29 +167,29 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  2ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  3ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.651E+03   TIME AVG. FORCE       2.297E+03
- LARGEST SCALED RESIDUAL FORCE      -762.       AT NODE         12   DOF  1
+ AVERAGE FORCE                      2.145E+03   TIME AVG. FORCE       1.858E+03
+ LARGEST SCALED RESIDUAL FORCE      -745.       AT NODE          8   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -762.    
- LARGEST INCREMENT OF DISP.        -8.980E-03   AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE      -745.    
+ LARGEST INCREMENT OF DISP.        -8.840E-03   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        1.570E-02   AT NODE          7   DOF  2
+ LARGEST CORRECTION TO DISP.        1.554E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          15.0       AT NODE        163   DOF 11
+ LARGEST INCREMENT OF TEMP.          15.0       AT NODE        269   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        -25.0       AT NODE        217   DOF 11
+ LARGEST CORRECTION TO TEMP.        -25.0       AT NODE        470   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -202,29 +202,29 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  40ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  50ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
 
 
- AVERAGE FORCE                      2.666E+03   TIME AVG. FORCE       2.305E+03
- LARGEST SCALED RESIDUAL FORCE       336.       AT NODE         56   DOF  1
+ AVERAGE FORCE                      2.156E+03   TIME AVG. FORCE       1.864E+03
+ LARGEST SCALED RESIDUAL FORCE      -140.       AT NODE          2   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       336.    
- LARGEST INCREMENT OF DISP.        -9.064E-03   AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE      -140.    
+ LARGEST INCREMENT OF DISP.        -8.953E-03   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -2.045E-03   AT NODE         33   DOF  1
+ LARGEST CORRECTION TO DISP.       -1.813E-03   AT NODE          1   DOF  1
    INSTANCE: CU                                                                              
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          15.0       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.          15.0       AT NODE        269   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -1.776E-15   AT NODE          1   DOF 11
+ LARGEST CORRECTION TO TEMP.        1.776E-15   AT NODE          4   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -237,30 +237,64 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  33ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  44ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
 
 
- AVERAGE FORCE                      2.665E+03   TIME AVG. FORCE       2.304E+03
- LARGEST SCALED RESIDUAL FORCE      0.501       AT NODE          1   DOF  1
+ AVERAGE FORCE                      2.156E+03   TIME AVG. FORCE       1.863E+03
+ LARGEST SCALED RESIDUAL FORCE       14.3       AT NODE          5   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      0.501    
- LARGEST INCREMENT OF DISP.        -9.175E-03   AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE       14.3    
+ LARGEST INCREMENT OF DISP.        -9.079E-03   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        4.842E-04   AT NODE          5   DOF  1
+ LARGEST CORRECTION TO DISP.        4.043E-04   AT NODE          1   DOF  1
    INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION    7.237E-07
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          15.0       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.          15.0       AT NODE        269   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -5.919E-45   AT NODE        203   DOF 11
+ LARGEST CORRECTION TO TEMP.       -5.113E-45   AT NODE        179   DOF 11
+   INSTANCE: SI                                                                              
+          THERE IS ZERO HEAT FLUX EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
+             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
+             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
+             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
+             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
+ 
+	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
+ 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
+        NUMBER OF EQUATIONS:  3080
+        NUMBER OF RHS:        1
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  52ms
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+
+ AVERAGE FORCE                      2.156E+03   TIME AVG. FORCE       1.863E+03
+ LARGEST SCALED RESIDUAL FORCE      5.119E-03   AT NODE          5   DOF  2
+   INSTANCE: CU                                                                              
+  CORRESPONDING RESIDUAL FORCE      5.119E-03
+ LARGEST INCREMENT OF DISP.        -9.075E-03   AT NODE          7   DOF  2
+   INSTANCE: CU                                                                              
+ LARGEST CORRECTION TO DISP.        6.778E-05   AT NODE          5   DOF  1
+   INSTANCE: CU                                                                              
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
+ ALL HEAT FLUX RESIDUALS ARE ZERO
+ LARGEST INCREMENT OF TEMP.          15.0       AT NODE        269   DOF 11
+   INSTANCE: SI                                                                              
+ LARGEST CORRECTION TO TEMP.       -5.113E-45   AT NODE        179   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -273,8 +307,8 @@
 
  MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
 
- ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+ ITERATION SUMMARY FOR THE INCREMENT:   4 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
 
  TIME INCREMENT COMPLETED  0.100    ,  FRACTION OF STEP COMPLETED  2.857E-03
  STEP TIME COMPLETED       0.200    ,  TOTAL TIME COMPLETED        0.200    
@@ -284,29 +318,29 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  76ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  47ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.369E+03   TIME AVG. FORCE       2.659E+03
- LARGEST SCALED RESIDUAL FORCE       55.2       AT NODE         70   DOF  1
+ AVERAGE FORCE                      2.728E+03   TIME AVG. FORCE       2.152E+03
+ LARGEST SCALED RESIDUAL FORCE       71.5       AT NODE         70   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       55.2    
- LARGEST INCREMENT OF DISP.        -8.776E-03   AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE       71.5    
+ LARGEST INCREMENT OF DISP.        -8.711E-03   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        2.847E-03   AT NODE         33   DOF  1
+ LARGEST CORRECTION TO DISP.       -1.817E-03   AT NODE         23   DOF  1
    INSTANCE: CU                                                                              
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          15.0       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.          15.0       AT NODE         68   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        1.243E-14   AT NODE        325   DOF 11
+ LARGEST CORRECTION TO TEMP.        1.243E-14   AT NODE         68   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -319,30 +353,30 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  59ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  57ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
 
 
- AVERAGE FORCE                      3.369E+03   TIME AVG. FORCE       2.659E+03
- LARGEST SCALED RESIDUAL FORCE      0.126       AT NODE         40   DOF  3
+ AVERAGE FORCE                      2.728E+03   TIME AVG. FORCE       2.152E+03
+ LARGEST SCALED RESIDUAL FORCE      0.102       AT NODE         57   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      0.126    
- LARGEST INCREMENT OF DISP.        -8.733E-03   AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE      0.102    
+ LARGEST INCREMENT OF DISP.        -8.670E-03   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        1.534E-04   AT NODE          8   DOF  1
+ LARGEST CORRECTION TO DISP.        1.189E-04   AT NODE         12   DOF  1
    INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION    3.513E-07
+ ESTIMATE OF DISP.    CORRECTION    1.698E-07
           FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          15.0       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.          15.0       AT NODE         68   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -5.919E-45   AT NODE        203   DOF 11
+ LARGEST CORRECTION TO TEMP.       -5.113E-45   AT NODE        179   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -367,29 +401,29 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  39ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  49ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      4.399E+03   TIME AVG. FORCE       3.094E+03
- LARGEST SCALED RESIDUAL FORCE       208.       AT NODE         21   DOF  1
+ AVERAGE FORCE                      3.566E+03   TIME AVG. FORCE       2.505E+03
+ LARGEST SCALED RESIDUAL FORCE       229.       AT NODE          3   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       208.    
- LARGEST INCREMENT OF DISP.        -1.541E-02   AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE       229.    
+ LARGEST INCREMENT OF DISP.        -1.496E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -3.354E-03   AT NODE         16   DOF  1
+ LARGEST CORRECTION TO DISP.       -2.938E-03   AT NODE         18   DOF  1
    INSTANCE: CU                                                                              
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          22.5       AT NODE        488   DOF 11
+ LARGEST INCREMENT OF TEMP.          22.5       AT NODE        202   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        1.421E-14   AT NODE        433   DOF 11
+ LARGEST CORRECTION TO TEMP.       -1.066E-14   AT NODE         68   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -402,30 +436,30 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  33ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  48ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
 
 
- AVERAGE FORCE                      4.399E+03   TIME AVG. FORCE       3.094E+03
- LARGEST SCALED RESIDUAL FORCE      0.946       AT NODE         21   DOF  1
+ AVERAGE FORCE                      3.564E+03   TIME AVG. FORCE       2.505E+03
+ LARGEST SCALED RESIDUAL FORCE       2.72       AT NODE         21   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      0.946    
- LARGEST INCREMENT OF DISP.        -1.575E-02   AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE       2.72    
+ LARGEST INCREMENT OF DISP.        -1.527E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -3.954E-04   AT NODE         18   DOF  1
+ LARGEST CORRECTION TO DISP.        5.416E-04   AT NODE          1   DOF  1
    INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -1.801E-06
+ ESTIMATE OF DISP.    CORRECTION    6.439E-06
           FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          22.5       AT NODE        488   DOF 11
+ LARGEST INCREMENT OF TEMP.          22.5       AT NODE        202   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -5.919E-45   AT NODE        203   DOF 11
+ LARGEST CORRECTION TO TEMP.       -5.113E-45   AT NODE        179   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -450,29 +484,29 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  31ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  81ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      5.878E+03   TIME AVG. FORCE       3.651E+03
- LARGEST SCALED RESIDUAL FORCE       246.       AT NODE         49   DOF  1
+ AVERAGE FORCE                      4.769E+03   TIME AVG. FORCE       2.958E+03
+ LARGEST SCALED RESIDUAL FORCE       260.       AT NODE         28   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       246.    
- LARGEST INCREMENT OF DISP.         2.956E-02   AT NODE         33   DOF  1
+  CORRESPONDING RESIDUAL FORCE       260.    
+ LARGEST INCREMENT OF DISP.        -2.718E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        9.013E-03   AT NODE         33   DOF  1
+ LARGEST CORRECTION TO DISP.       -7.842E-03   AT NODE         16   DOF  1
    INSTANCE: CU                                                                              
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          33.8       AT NODE        271   DOF 11
+ LARGEST INCREMENT OF TEMP.          33.8       AT NODE        202   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -7.816E-14   AT NODE        433   DOF 11
+ LARGEST CORRECTION TO TEMP.       -7.105E-14   AT NODE        137   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -485,30 +519,30 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  36ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  48ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
 
 
- AVERAGE FORCE                      5.877E+03   TIME AVG. FORCE       3.651E+03
- LARGEST SCALED RESIDUAL FORCE      0.523       AT NODE         49   DOF  1
+ AVERAGE FORCE                      4.767E+03   TIME AVG. FORCE       2.957E+03
+ LARGEST SCALED RESIDUAL FORCE       1.16       AT NODE         28   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      0.523    
- LARGEST INCREMENT OF DISP.         2.982E-02   AT NODE         29   DOF  1
+  CORRESPONDING RESIDUAL FORCE       1.16    
+ LARGEST INCREMENT OF DISP.        -2.749E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        4.227E-04   AT NODE         49   DOF  1
+ LARGEST CORRECTION TO DISP.        4.025E-04   AT NODE         28   DOF  1
    INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION    8.961E-07
+ ESTIMATE OF DISP.    CORRECTION    1.791E-06
           FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          33.8       AT NODE        271   DOF 11
+ LARGEST INCREMENT OF TEMP.          33.8       AT NODE        202   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -5.919E-45   AT NODE        203   DOF 11
+ LARGEST CORRECTION TO TEMP.       -5.113E-45   AT NODE        112   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -533,30 +567,64 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  45ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  56ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      8.078E+03   TIME AVG. FORCE       4.388E+03
- LARGEST SCALED RESIDUAL FORCE       21.7       AT NODE         14   DOF  1
+ AVERAGE FORCE                      6.560E+03   TIME AVG. FORCE       3.558E+03
+ LARGEST SCALED RESIDUAL FORCE       25.7       AT NODE         14   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       21.7    
- LARGEST INCREMENT OF DISP.         4.702E-02   AT NODE         36   DOF  1
+  CORRESPONDING RESIDUAL FORCE       25.7    
+ LARGEST INCREMENT OF DISP.        -4.286E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -3.886E-03   AT NODE         18   DOF  1
+ LARGEST CORRECTION TO DISP.       -4.108E-03   AT NODE         16   DOF  1
    INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -6.897E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          50.6       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.          50.6       AT NODE        202   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        1.066E-13   AT NODE        433   DOF 11
+ LARGEST CORRECTION TO TEMP.        1.208E-13   AT NODE        606   DOF 11
+   INSTANCE: SI                                                                              
+          THERE IS ZERO HEAT FLUX EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
+             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
+             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
+             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
+             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
+ 
+	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
+ 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
+        NUMBER OF EQUATIONS:  3080
+        NUMBER OF RHS:        1
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  64ms
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      6.560E+03   TIME AVG. FORCE       3.558E+03
+ LARGEST SCALED RESIDUAL FORCE     -1.578E-02   AT NODE         14   DOF  2
+   INSTANCE: CU                                                                              
+  CORRESPONDING RESIDUAL FORCE     -1.578E-02
+ LARGEST INCREMENT OF DISP.        -4.289E-02   AT NODE          7   DOF  2
+   INSTANCE: CU                                                                              
+ LARGEST CORRECTION TO DISP.       -4.624E-05   AT NODE         67   DOF  1
+   INSTANCE: CU                                                                              
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
+ ALL HEAT FLUX RESIDUALS ARE ZERO
+ LARGEST INCREMENT OF TEMP.          50.6       AT NODE        202   DOF 11
+   INSTANCE: SI                                                                              
+ LARGEST CORRECTION TO TEMP.       -5.113E-45   AT NODE        179   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -568,43 +636,43 @@
              CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
 
  MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-          TIME INCREMENT MAY NOW INCREASE TO    0.675    
+          TIME INCREMENT MAY NOW INCREASE TO    0.506    
 
- ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
+ ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
 
  TIME INCREMENT COMPLETED  0.338    ,  FRACTION OF STEP COMPLETED  1.446E-02
  STEP TIME COMPLETED        1.01    ,  TOTAL TIME COMPLETED         1.01    
 
 
-  INCREMENT     7 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  0.675    
+  INCREMENT     7 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  0.506    
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  83ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  45ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.248E+04   TIME AVG. FORCE       5.544E+03
- LARGEST SCALED RESIDUAL FORCE      -3.32       AT NODE         14   DOF  2
+ AVERAGE FORCE                      9.251E+03   TIME AVG. FORCE       4.371E+03
+ LARGEST SCALED RESIDUAL FORCE      -2.88       AT NODE          6   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -3.32    
- LARGEST INCREMENT OF DISP.         9.562E-02   AT NODE         36   DOF  1
+  CORRESPONDING RESIDUAL FORCE      -2.88    
+ LARGEST INCREMENT OF DISP.        -6.468E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -2.305E-03   AT NODE         18   DOF  1
+ LARGEST CORRECTION TO DISP.       -1.675E-03   AT NODE         16   DOF  1
    INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION    7.548E-06
+ ESTIMATE OF DISP.    CORRECTION    7.008E-06
           FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
 
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.049E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          101.       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.          76.0       AT NODE         71   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -5.684E-14   AT NODE          1   DOF 11
+ LARGEST CORRECTION TO TEMP.       -1.137E-13   AT NODE        135   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -621,37 +689,37 @@
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  0.675    ,  FRACTION OF STEP COMPLETED  2.411E-02
- STEP TIME COMPLETED        1.69    ,  TOTAL TIME COMPLETED         1.69    
+ TIME INCREMENT COMPLETED  0.506    ,  FRACTION OF STEP COMPLETED  2.170E-02
+ STEP TIME COMPLETED        1.52    ,  TOTAL TIME COMPLETED         1.52    
 
 
   INCREMENT     8 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  46ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  42ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.343E+04   TIME AVG. FORCE       6.531E+03
- LARGEST SCALED RESIDUAL FORCE      -58.0       AT NODE         14   DOF  2
+ AVERAGE FORCE                      1.092E+04   TIME AVG. FORCE       5.190E+03
+ LARGEST SCALED RESIDUAL FORCE       20.3       AT NODE         10   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -58.0    
- LARGEST INCREMENT OF DISP.         2.053E-02   AT NODE         36   DOF  1
+  CORRESPONDING RESIDUAL FORCE       20.3    
+ LARGEST INCREMENT OF DISP.        -4.014E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.121       AT NODE         36   DOF  1
+ LARGEST CORRECTION TO DISP.        8.763E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+          DISP.    CORRECTION TOO LARGE COMPARED TO DISP.    INCREMENT
 
- AVERAGE HEAT FLUX                  3.807E-11   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  6.439E-11   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          21.8       AT NODE          1   DOF 11
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO TEMP.        -128.       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.          47.1       AT NODE        202   DOF 11
+   INSTANCE: SI                                                                              
+ LARGEST CORRECTION TO TEMP.        -103.       AT NODE         71   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -664,29 +732,29 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  37ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  51ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
 
 
- AVERAGE FORCE                      1.344E+04   TIME AVG. FORCE       6.531E+03
- LARGEST SCALED RESIDUAL FORCE     -0.147       AT NODE         14   DOF  2
+ AVERAGE FORCE                      1.092E+04   TIME AVG. FORCE       5.190E+03
+ LARGEST SCALED RESIDUAL FORCE      3.065E-02   AT NODE         10   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -0.147    
- LARGEST INCREMENT OF DISP.         2.070E-02   AT NODE         36   DOF  1
+  CORRESPONDING RESIDUAL FORCE      3.065E-02
+ LARGEST INCREMENT OF DISP.        -4.020E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        1.785E-04   AT NODE         40   DOF  1
+ LARGEST CORRECTION TO DISP.        1.358E-04   AT NODE          5   DOF  1
    INSTANCE: CU                                                                              
           THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
 
- AVERAGE HEAT FLUX                  3.807E-11   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  6.439E-11   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          21.8       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.          47.1       AT NODE        202   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        1.066E-14   AT NODE        217   DOF 11
+ LARGEST CORRECTION TO TEMP.       -7.105E-15   AT NODE          1   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -702,37 +770,37 @@
  ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  3.839E-02
- STEP TIME COMPLETED        2.69    ,  TOTAL TIME COMPLETED         2.69    
+ TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  3.598E-02
+ STEP TIME COMPLETED        2.52    ,  TOTAL TIME COMPLETED         2.52    
 
 
   INCREMENT     9 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  33ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  65ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      4.970E+03   TIME AVG. FORCE       6.357E+03
- LARGEST SCALED RESIDUAL FORCE     -2.060E+04   AT NODE         18   DOF  1
+ AVERAGE FORCE                      5.389E+03   TIME AVG. FORCE       5.212E+03
+ LARGEST SCALED RESIDUAL FORCE     -1.987E+04   AT NODE         16   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.060E+04
- LARGEST INCREMENT OF DISP.        -0.185       AT NODE         36   DOF  1
+  CORRESPONDING RESIDUAL FORCE     -1.987E+04
+ LARGEST INCREMENT OF DISP.         0.133       AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.206       AT NODE         36   DOF  1
+ LARGEST CORRECTION TO DISP.        0.174       AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.137E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.         -156.       AT NODE        269   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        -217.       AT NODE        217   DOF 11
+ LARGEST CORRECTION TO TEMP.        -204.       AT NODE        269   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -745,29 +813,29 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  33ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  49ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
 
 
- AVERAGE FORCE                      4.847E+03   TIME AVG. FORCE       6.344E+03
- LARGEST SCALED RESIDUAL FORCE     -6.456E+03   AT NODE         21   DOF  1
+ AVERAGE FORCE                      5.278E+03   TIME AVG. FORCE       5.200E+03
+ LARGEST SCALED RESIDUAL FORCE     -1.770E+04   AT NODE         21   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -6.456E+03
- LARGEST INCREMENT OF DISP.         0.121       AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE     -1.770E+04
+ LARGEST INCREMENT OF DISP.         8.703E-02   AT NODE          6   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        0.120       AT NODE         36   DOF  1
+ LARGEST CORRECTION TO DISP.       -0.117       AT NODE         16   DOF  1
    INSTANCE: CU                                                                              
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.137E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.         -156.       AT NODE        269   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        7.690E-45   AT NODE        203   DOF 11
+ LARGEST CORRECTION TO TEMP.        2.842E-14   AT NODE        205   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -780,29 +848,29 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  34ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  67ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
 
 
- AVERAGE FORCE                      4.834E+03   TIME AVG. FORCE       6.342E+03
- LARGEST SCALED RESIDUAL FORCE      -760.       AT NODE         66   DOF  1
+ AVERAGE FORCE                      5.250E+03   TIME AVG. FORCE       5.196E+03
+ LARGEST SCALED RESIDUAL FORCE      1.072E+04   AT NODE         21   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -760.    
- LARGEST INCREMENT OF DISP.         0.122       AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE      1.072E+04
+ LARGEST INCREMENT OF DISP.         0.103       AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        7.394E-03   AT NODE         18   DOF  1
+ LARGEST CORRECTION TO DISP.        2.208E-02   AT NODE         16   DOF  1
    INSTANCE: CU                                                                              
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.137E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.         -156.       AT NODE        269   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        7.690E-45   AT NODE        203   DOF 11
+ LARGEST CORRECTION TO TEMP.        5.332E-45   AT NODE        112   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -815,30 +883,99 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  34ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  116ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
 
 
- AVERAGE FORCE                      4.831E+03   TIME AVG. FORCE       6.342E+03
- LARGEST SCALED RESIDUAL FORCE      -31.4       AT NODE         42   DOF  1
+ AVERAGE FORCE                      5.225E+03   TIME AVG. FORCE       5.194E+03
+ LARGEST SCALED RESIDUAL FORCE      3.214E+03   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -31.4    
- LARGEST INCREMENT OF DISP.         0.122       AT NODE          7   DOF  2
+  CORRESPONDING RESIDUAL FORCE      3.214E+03
+ LARGEST INCREMENT OF DISP.         8.950E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -1.322E-03   AT NODE         64   DOF  1
+ LARGEST CORRECTION TO DISP.       -1.312E-02   AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -5.464E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.137E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
+ LARGEST INCREMENT OF TEMP.         -156.       AT NODE        269   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        7.690E-45   AT NODE        203   DOF 11
+ LARGEST CORRECTION TO TEMP.        5.332E-45   AT NODE        112   DOF 11
+   INSTANCE: SI                                                                              
+          THERE IS ZERO HEAT FLUX EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
+             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
+             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
+             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
+             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
+ 
+	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
+ 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
+        NUMBER OF EQUATIONS:  3080
+        NUMBER OF RHS:        1
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  55ms
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     5
+
+
+ AVERAGE FORCE                      5.225E+03   TIME AVG. FORCE       5.194E+03
+ LARGEST SCALED RESIDUAL FORCE       33.4       AT NODE          7   DOF  2
+   INSTANCE: CU                                                                              
+  CORRESPONDING RESIDUAL FORCE       33.4    
+ LARGEST INCREMENT OF DISP.         9.418E-02   AT NODE          7   DOF  2
+   INSTANCE: CU                                                                              
+ LARGEST CORRECTION TO DISP.        4.674E-03   AT NODE          7   DOF  2
+   INSTANCE: CU                                                                              
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE HEAT FLUX                  2.137E-10   TIME AVG. HEAT FLUX   1.000E-02
+ ALL HEAT FLUX RESIDUALS ARE ZERO
+ LARGEST INCREMENT OF TEMP.         -156.       AT NODE        269   DOF 11
+   INSTANCE: SI                                                                              
+ LARGEST CORRECTION TO TEMP.        5.332E-45   AT NODE        112   DOF 11
+   INSTANCE: SI                                                                              
+          THERE IS ZERO HEAT FLUX EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
+             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
+             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
+             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
+             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
+ 
+	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
+ 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
+        NUMBER OF EQUATIONS:  3080
+        NUMBER OF RHS:        1
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  48ms
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     6
+
+
+ AVERAGE FORCE                      5.224E+03   TIME AVG. FORCE       5.194E+03
+ LARGEST SCALED RESIDUAL FORCE     -3.844E-02   AT NODE          5   DOF  3
+   INSTANCE: CU                                                                              
+  CORRESPONDING RESIDUAL FORCE     -3.844E-02
+ LARGEST INCREMENT OF DISP.         9.423E-02   AT NODE          7   DOF  2
+   INSTANCE: CU                                                                              
+ LARGEST CORRECTION TO DISP.       -8.968E-05   AT NODE          5   DOF  3
+   INSTANCE: CU                                                                              
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE HEAT FLUX                  2.137E-10   TIME AVG. HEAT FLUX   1.000E-02
+ ALL HEAT FLUX RESIDUALS ARE ZERO
+ LARGEST INCREMENT OF TEMP.         -156.       AT NODE        269   DOF 11
+   INSTANCE: SI                                                                              
+ LARGEST CORRECTION TO TEMP.        5.332E-45   AT NODE        112   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -851,40 +988,40 @@
 
  MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
 
- ITERATION SUMMARY FOR THE INCREMENT:   4 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
+ ITERATION SUMMARY FOR THE INCREMENT:   6 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  6 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  5.268E-02
- STEP TIME COMPLETED        3.69    ,  TOTAL TIME COMPLETED         3.69    
+ TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  5.027E-02
+ STEP TIME COMPLETED        3.52    ,  TOTAL TIME COMPLETED         3.52    
 
 
   INCREMENT    10 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  47ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  52ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.294E+03   TIME AVG. FORCE       6.037E+03
- LARGEST SCALED RESIDUAL FORCE     -2.364E+03   AT NODE         42   DOF  1
+ AVERAGE FORCE                      2.727E+03   TIME AVG. FORCE       4.947E+03
+ LARGEST SCALED RESIDUAL FORCE     -5.260E+03   AT NODE         28   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.364E+03
- LARGEST INCREMENT OF DISP.        -0.157       AT NODE         29   DOF  1
+  CORRESPONDING RESIDUAL FORCE     -5.260E+03
+ LARGEST INCREMENT OF DISP.         0.170       AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -8.555E-02   AT NODE         29   DOF  1
+ LARGEST CORRECTION TO DISP.        0.108       AT NODE         23   DOF  1
    INSTANCE: CU                                                                              
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  2.966E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.849E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -170.       AT NODE        271   DOF 11
+ LARGEST INCREMENT OF TEMP.         -209.       AT NODE        137   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         24.9       AT NODE        111   DOF 11
+ LARGEST CORRECTION TO TEMP.        -52.1       AT NODE        137   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -897,30 +1034,64 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  36ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  58ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
 
 
- AVERAGE FORCE                      3.277E+03   TIME AVG. FORCE       6.035E+03
- LARGEST SCALED RESIDUAL FORCE      -10.0       AT NODE         10   DOF  1
+ AVERAGE FORCE                      2.656E+03   TIME AVG. FORCE       4.940E+03
+ LARGEST SCALED RESIDUAL FORCE      -164.       AT NODE         10   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -10.0    
- LARGEST INCREMENT OF DISP.        -0.158       AT NODE         29   DOF  1
+  CORRESPONDING RESIDUAL FORCE      -164.    
+ LARGEST INCREMENT OF DISP.         0.169       AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -4.231E-03   AT NODE         42   DOF  1
+ LARGEST CORRECTION TO DISP.        1.649E-02   AT NODE          2   DOF  1
    INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -1.793E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  2.966E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  2.849E-10   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -170.       AT NODE        271   DOF 11
+ LARGEST INCREMENT OF TEMP.         -209.       AT NODE        137   DOF 11
    INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        6.709E-45   AT NODE        203   DOF 11
+ LARGEST CORRECTION TO TEMP.        7.108E-45   AT NODE        179   DOF 11
+   INSTANCE: SI                                                                              
+          THERE IS ZERO HEAT FLUX EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
+             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
+             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
+             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
+             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
+ 
+	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
+ 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
+        NUMBER OF EQUATIONS:  3080
+        NUMBER OF RHS:        1
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  53ms
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+
+ AVERAGE FORCE                      2.654E+03   TIME AVG. FORCE       4.940E+03
+ LARGEST SCALED RESIDUAL FORCE     -0.365       AT NODE         10   DOF  1
+   INSTANCE: CU                                                                              
+  CORRESPONDING RESIDUAL FORCE     -0.365    
+ LARGEST INCREMENT OF DISP.         0.170       AT NODE          7   DOF  2
+   INSTANCE: CU                                                                              
+ LARGEST CORRECTION TO DISP.        7.245E-04   AT NODE         18   DOF  3
+   INSTANCE: CU                                                                              
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE HEAT FLUX                  2.849E-10   TIME AVG. HEAT FLUX   1.000E-02
+ ALL HEAT FLUX RESIDUALS ARE ZERO
+ LARGEST INCREMENT OF TEMP.         -209.       AT NODE        137   DOF 11
+   INSTANCE: SI                                                                              
+ LARGEST CORRECTION TO TEMP.        7.108E-45   AT NODE        179   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -933,167 +1104,40 @@
 
  MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
 
- ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
+ ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  6.696E-02
- STEP TIME COMPLETED        4.69    ,  TOTAL TIME COMPLETED         4.69    
+ TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  6.455E-02
+ STEP TIME COMPLETED        4.52    ,  TOTAL TIME COMPLETED         4.52    
 
 
   INCREMENT    11 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  33ms
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  61ms
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.651E+03   TIME AVG. FORCE       5.728E+03
- LARGEST SCALED RESIDUAL FORCE     -8.781E+03   AT NODE         42   DOF  1
+ AVERAGE FORCE                      2.484E+03   TIME AVG. FORCE       4.716E+03
+ LARGEST SCALED RESIDUAL FORCE      2.876E+03   AT NODE         18   DOF  1
    INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -8.781E+03
- LARGEST INCREMENT OF DISP.         1.415E-02   AT NODE         40   DOF  1
+  CORRESPONDING RESIDUAL FORCE      2.876E+03
+ LARGEST INCREMENT OF DISP.        -4.853E-03   AT NODE          2   DOF  1
    INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        0.173       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.549E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          14.6       AT NODE          1   DOF 11
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO TEMP.         185.       AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  31ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      2.568E+03   TIME AVG. FORCE       5.720E+03
- LARGEST SCALED RESIDUAL FORCE     -2.438E-11   AT NODE         30   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.438E-11
- LARGEST INCREMENT OF DISP.        -9.017E-03   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -1.088E-02   AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
-          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
-
- AVERAGE HEAT FLUX                  2.549E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          14.6       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        2.309E-14   AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  8.125E-02
- STEP TIME COMPLETED        5.69    ,  TOTAL TIME COMPLETED         5.69    
-
-
-  INCREMENT    12 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  29ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                       379.       TIME AVG. FORCE       5.275E+03
- LARGEST SCALED RESIDUAL FORCE     -2.640E-10   AT NODE         93   DOF  2
-   INSTANCE: SI                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.640E-10
- LARGEST INCREMENT OF DISP.        -3.544E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -2.642E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
-          THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
-
- AVERAGE HEAT FLUX                  1.002E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          57.4       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         42.8       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  9.554E-02
- STEP TIME COMPLETED        6.69    ,  TOTAL TIME COMPLETED         6.69    
-
-
-  INCREMENT    13 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  2ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      6.103E+03   TIME AVG. FORCE       5.339E+03
- LARGEST SCALED RESIDUAL FORCE      6.160E+03   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      6.160E+03
- LARGEST INCREMENT OF DISP.        -7.461E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -3.917E-02   AT NODE          7   DOF  2
+ LARGEST CORRECTION TO DISP.       -0.172       AT NODE          7   DOF  2
    INSTANCE: CU                                                                              
           FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
 
- AVERAGE HEAT FLUX                  2.112E-10   TIME AVG. HEAT FLUX   1.000E-02
+ AVERAGE HEAT FLUX                  6.727E-12   TIME AVG. HEAT FLUX   1.000E-02
  ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          121.       AT NODE         57   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         63.7       AT NODE         57   DOF 11
+ LARGEST INCREMENT OF TEMP.          4.93       AT NODE          1   DOF 11
+   INSTANCE: CU                                                                              
+ LARGEST CORRECTION TO TEMP.         213.       AT NODE        137   DOF 11
    INSTANCE: SI                                                                              
           THERE IS ZERO HEAT FLUX EVERYWHERE
  
@@ -1106,2050 +1150,36 @@
  
 	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
  	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
+        NUMBER OF EQUATIONS:  3080
         NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  37ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      5.968E+03   TIME AVG. FORCE       5.328E+03
- LARGEST SCALED RESIDUAL FORCE      1.862E+03   AT NODE         17   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      1.862E+03
- LARGEST INCREMENT OF DISP.        -7.513E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        2.137E-02   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.112E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          121.       AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -5.684E-14   AT NODE        165   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  41ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
-
-
- AVERAGE FORCE                      5.955E+03   TIME AVG. FORCE       5.327E+03
- LARGEST SCALED RESIDUAL FORCE      -55.9       AT NODE         21   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -55.9    
- LARGEST INCREMENT OF DISP.        -7.548E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -2.579E-03   AT NODE         16   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.112E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          121.       AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -4.777E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  30ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
-
-
- AVERAGE FORCE                      5.955E+03   TIME AVG. FORCE       5.327E+03
- LARGEST SCALED RESIDUAL FORCE       1.37       AT NODE         63   DOF  3
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       1.37    
- LARGEST INCREMENT OF DISP.        -7.548E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        1.388E-04   AT NODE         19   DOF  3
-   INSTANCE: CU                                                                              
-          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
-
- AVERAGE HEAT FLUX                  2.112E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          121.       AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -4.777E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   4 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.110    
- STEP TIME COMPLETED        7.69    ,  TOTAL TIME COMPLETED         7.69    
-
-
-  INCREMENT    14 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  32ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      1.251E+04   TIME AVG. FORCE       5.841E+03
- LARGEST SCALED RESIDUAL FORCE      2.676E+03   AT NODE         42   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      2.676E+03
- LARGEST INCREMENT OF DISP.         0.138       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        8.570E-02   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          150.       AT NODE        488   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         28.9       AT NODE        488   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  33ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      1.250E+04   TIME AVG. FORCE       5.840E+03
- LARGEST SCALED RESIDUAL FORCE       16.2       AT NODE         10   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       16.2    
- LARGEST INCREMENT OF DISP.         0.138       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        5.096E-03   AT NODE         42   DOF  1
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION    3.080E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          150.       AT NODE        488   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -5.919E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.124    
- STEP TIME COMPLETED        8.69    ,  TOTAL TIME COMPLETED         8.69    
-
-
-  INCREMENT    15 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  30ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      1.345E+04   TIME AVG. FORCE       6.347E+03
- LARGEST SCALED RESIDUAL FORCE       255.       AT NODE         42   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       255.    
- LARGEST INCREMENT OF DISP.         2.072E-02   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.118       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.807E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          21.8       AT NODE          1   DOF 11
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO TEMP.        -128.       AT NODE        488   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  40ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      1.345E+04   TIME AVG. FORCE       6.347E+03
- LARGEST SCALED RESIDUAL FORCE       3.40       AT NODE         70   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       3.40    
- LARGEST INCREMENT OF DISP.         2.071E-02   AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -8.093E-04   AT NODE         70   DOF  1
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -1.082E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  3.807E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          21.8       AT NODE        109   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -1.066E-14   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.138    
- STEP TIME COMPLETED        9.69    ,  TOTAL TIME COMPLETED         9.69    
-
-
-  INCREMENT    16 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  34ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      4.995E+03   TIME AVG. FORCE       6.262E+03
- LARGEST SCALED RESIDUAL FORCE     -2.155E+04   AT NODE         16   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.155E+04
- LARGEST INCREMENT OF DISP.        -0.186       AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.206       AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        -217.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  50ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      4.858E+03   TIME AVG. FORCE       6.254E+03
- LARGEST SCALED RESIDUAL FORCE     -8.195E+03   AT NODE         21   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -8.195E+03
- LARGEST INCREMENT OF DISP.         0.119       AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        0.125       AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        7.690E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  43ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
-
-
- AVERAGE FORCE                      4.840E+03   TIME AVG. FORCE       6.253E+03
- LARGEST SCALED RESIDUAL FORCE      -803.       AT NODE         10   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -803.    
- LARGEST INCREMENT OF DISP.         0.121       AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        8.920E-03   AT NODE         18   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        7.690E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  36ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
-
-
- AVERAGE FORCE                      4.836E+03   TIME AVG. FORCE       6.252E+03
- LARGEST SCALED RESIDUAL FORCE       11.9       AT NODE         13   DOF  3
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       11.9    
- LARGEST INCREMENT OF DISP.         0.121       AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        1.323E-03   AT NODE         65   DOF  1
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -1.961E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        7.690E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   4 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.153    
- STEP TIME COMPLETED        10.7    ,  TOTAL TIME COMPLETED         10.7    
-
-
-  INCREMENT    17 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  34ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      3.310E+03   TIME AVG. FORCE       6.079E+03
- LARGEST SCALED RESIDUAL FORCE     -2.586E+03   AT NODE         42   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.586E+03
- LARGEST INCREMENT OF DISP.        -0.156       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -8.754E-02   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.966E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -170.       AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         24.9       AT NODE        111   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  37ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      3.293E+03   TIME AVG. FORCE       6.078E+03
- LARGEST SCALED RESIDUAL FORCE      -19.9       AT NODE         10   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -19.9    
- LARGEST INCREMENT OF DISP.        -0.157       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        5.053E-03   AT NODE          4   DOF  1
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION    3.884E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  2.966E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -170.       AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        6.709E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.167    
- STEP TIME COMPLETED        11.7    ,  TOTAL TIME COMPLETED         11.7    
-
-
-  INCREMENT    18 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  55ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      2.666E+03   TIME AVG. FORCE       5.889E+03
- LARGEST SCALED RESIDUAL FORCE     -8.758E+03   AT NODE         42   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -8.758E+03
- LARGEST INCREMENT OF DISP.         1.420E-02   AT NODE         40   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        0.171       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.549E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          14.6       AT NODE          1   DOF 11
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO TEMP.         185.       AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  94ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      2.584E+03   TIME AVG. FORCE       5.884E+03
- LARGEST SCALED RESIDUAL FORCE     -2.747E-11   AT NODE         23   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.747E-11
- LARGEST INCREMENT OF DISP.        -9.016E-03   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -1.093E-02   AT NODE         40   DOF  1
-   INSTANCE: CU                                                                              
-          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
-
- AVERAGE HEAT FLUX                  2.549E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          14.6       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        2.309E-14   AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.181    
- STEP TIME COMPLETED        12.7    ,  TOTAL TIME COMPLETED         12.7    
-
-
-  INCREMENT    19 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  32ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                       390.       TIME AVG. FORCE       5.595E+03
- LARGEST SCALED RESIDUAL FORCE     -2.344E-10   AT NODE        527   DOF  2
-   INSTANCE: SI                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.344E-10
- LARGEST INCREMENT OF DISP.        -3.544E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -2.642E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
-          THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
-
- AVERAGE HEAT FLUX                  1.002E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          57.4       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         42.8       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.196    
- STEP TIME COMPLETED        13.7    ,  TOTAL TIME COMPLETED         13.7    
-
-
-  INCREMENT    20 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  3ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      6.091E+03   TIME AVG. FORCE       5.620E+03
- LARGEST SCALED RESIDUAL FORCE      5.895E+03   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      5.895E+03
- LARGEST INCREMENT OF DISP.        -7.465E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -3.921E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.112E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          121.       AT NODE         57   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         63.7       AT NODE         57   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  32ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      5.963E+03   TIME AVG. FORCE       5.613E+03
- LARGEST SCALED RESIDUAL FORCE      1.441E+03   AT NODE         17   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      1.441E+03
- LARGEST INCREMENT OF DISP.        -7.414E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        2.019E-02   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.112E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          121.       AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -5.684E-14   AT NODE        165   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  31ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
-
-
- AVERAGE FORCE                      5.956E+03   TIME AVG. FORCE       5.613E+03
- LARGEST SCALED RESIDUAL FORCE      -27.7       AT NODE         62   DOF  3
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -27.7    
- LARGEST INCREMENT OF DISP.        -7.492E-02   AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        2.047E-03   AT NODE          1   DOF  1
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -3.940E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  2.112E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          121.       AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -4.777E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.210    
- STEP TIME COMPLETED        14.7    ,  TOTAL TIME COMPLETED         14.7    
-
-
-  INCREMENT    21 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  31ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      1.252E+04   TIME AVG. FORCE       5.942E+03
- LARGEST SCALED RESIDUAL FORCE      2.811E+03   AT NODE         42   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      2.811E+03
- LARGEST INCREMENT OF DISP.         0.137       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        8.644E-02   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          150.       AT NODE        488   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         28.9       AT NODE        488   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  37ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      1.251E+04   TIME AVG. FORCE       5.941E+03
- LARGEST SCALED RESIDUAL FORCE       28.1       AT NODE         10   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       28.1    
- LARGEST INCREMENT OF DISP.         0.137       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -5.239E-03   AT NODE          4   DOF  1
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -5.231E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  2.617E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          150.       AT NODE        488   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -5.919E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.224    
- STEP TIME COMPLETED        15.7    ,  TOTAL TIME COMPLETED         15.7    
-
-
-  INCREMENT    22 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  30ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      1.347E+04   TIME AVG. FORCE       6.284E+03
- LARGEST SCALED RESIDUAL FORCE      1.459E+04   AT NODE         49   DOF  2
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      1.459E+04
- LARGEST INCREMENT OF DISP.         5.252E-02   AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.132       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.807E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          21.8       AT NODE          1   DOF 11
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO TEMP.        -128.       AT NODE        488   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  31ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      1.347E+04   TIME AVG. FORCE       6.284E+03
- LARGEST SCALED RESIDUAL FORCE     -5.566E+03   AT NODE         36   DOF  3
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -5.566E+03
- LARGEST INCREMENT OF DISP.         1.972E-02   AT NODE         40   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        5.454E-02   AT NODE         36   DOF  3
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.807E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          21.8       AT NODE        109   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -1.066E-14   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  35ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
-
-
- AVERAGE FORCE                      1.346E+04   TIME AVG. FORCE       6.283E+03
- LARGEST SCALED RESIDUAL FORCE      1.229E+03   AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      1.229E+03
- LARGEST INCREMENT OF DISP.         2.122E-02   AT NODE         33   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -1.665E-02   AT NODE         36   DOF  3
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.807E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          21.8       AT NODE        109   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -8.611E-46   AT NODE        257   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  37ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
-
-
- AVERAGE FORCE                      1.346E+04   TIME AVG. FORCE       6.283E+03
- LARGEST SCALED RESIDUAL FORCE       108.       AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE       108.    
- LARGEST INCREMENT OF DISP.         2.092E-02   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        1.023E-02   AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.807E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          21.8       AT NODE        109   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -8.611E-46   AT NODE        257   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  42ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     5
-
-
- AVERAGE FORCE                      1.346E+04   TIME AVG. FORCE       6.283E+03
- LARGEST SCALED RESIDUAL FORCE      -1.33       AT NODE         36   DOF  3
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -1.33    
- LARGEST INCREMENT OF DISP.         2.072E-02   AT NODE         40   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        1.303E-03   AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -1.605E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  3.807E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          21.8       AT NODE        109   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -8.611E-46   AT NODE        257   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   5 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  5 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.238    
- STEP TIME COMPLETED        16.7    ,  TOTAL TIME COMPLETED         16.7    
-
-
-  INCREMENT    23 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  32ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      4.998E+03   TIME AVG. FORCE       6.227E+03
- LARGEST SCALED RESIDUAL FORCE      2.511E+04   AT NODE         42   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      2.511E+04
- LARGEST INCREMENT OF DISP.        -0.186       AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.206       AT NODE         36   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        -217.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  38ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      4.847E+03   TIME AVG. FORCE       6.221E+03
- LARGEST SCALED RESIDUAL FORCE      1.212E+04   AT NODE         28   DOF  2
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      1.212E+04
- LARGEST INCREMENT OF DISP.         0.118       AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.123       AT NODE         18   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        7.690E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  31ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
-
-
- AVERAGE FORCE                      4.859E+03   TIME AVG. FORCE       6.221E+03
- LARGEST SCALED RESIDUAL FORCE     -8.813E+03   AT NODE         35   DOF  2
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -8.813E+03
- LARGEST INCREMENT OF DISP.         0.120       AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        4.324E-02   AT NODE         33   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        7.690E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  32ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
-
-
- AVERAGE FORCE                      4.840E+03   TIME AVG. FORCE       6.220E+03
- LARGEST SCALED RESIDUAL FORCE     -3.817E+03   AT NODE         42   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -3.817E+03
- LARGEST INCREMENT OF DISP.         0.121       AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -1.396E-02   AT NODE         33   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        7.690E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  36ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     5
-
-
- AVERAGE FORCE                      4.836E+03   TIME AVG. FORCE       6.220E+03
- LARGEST SCALED RESIDUAL FORCE      -17.6       AT NODE         40   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -17.6    
- LARGEST INCREMENT OF DISP.         0.121       AT NODE          7   DOF  2
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -4.859E-03   AT NODE         42   DOF  1
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -2.240E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  3.400E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -195.       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        7.690E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   5 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  5 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.253    
- STEP TIME COMPLETED        17.7    ,  TOTAL TIME COMPLETED         17.7    
-
-
-  INCREMENT    24 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  31ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      3.312E+03   TIME AVG. FORCE       6.099E+03
- LARGEST SCALED RESIDUAL FORCE      5.214E+03   AT NODE         41   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      5.214E+03
- LARGEST INCREMENT OF DISP.        -0.155       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -9.065E-02   AT NODE         43   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.966E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -170.       AT NODE        166   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         24.9       AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  39ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      3.256E+03   TIME AVG. FORCE       6.097E+03
- LARGEST SCALED RESIDUAL FORCE      -243.       AT NODE         35   DOF  2
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -243.    
- LARGEST INCREMENT OF DISP.        -0.192       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -3.745E-02   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.966E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -170.       AT NODE        166   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        6.709E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  35ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
-
-
- AVERAGE FORCE                      3.254E+03   TIME AVG. FORCE       6.097E+03
- LARGEST SCALED RESIDUAL FORCE     -0.957       AT NODE         35   DOF  2
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -0.957    
- LARGEST INCREMENT OF DISP.        -0.193       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -2.501E-03   AT NODE         40   DOF  3
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION   -9.845E-06
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  2.966E-10   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         -170.       AT NODE        166   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        6.709E-45   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-
- ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED   1.00    ,  FRACTION OF STEP COMPLETED  0.267    
- STEP TIME COMPLETED        18.7    ,  TOTAL TIME COMPLETED         18.7    
-
-
-  INCREMENT    25 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT   1.00    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  43ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      2.765E+03   TIME AVG. FORCE       5.963E+03
- LARGEST SCALED RESIDUAL FORCE      3.556E+04   AT NODE         28   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      3.556E+04
- LARGEST INCREMENT OF DISP.         7.085E-02   AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        0.264       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.549E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          14.6       AT NODE          1   DOF 11
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO TEMP.         185.       AT NODE        166   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  44ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      2.478E+03   TIME AVG. FORCE       5.952E+03
- LARGEST SCALED RESIDUAL FORCE     -2.171E+04   AT NODE         28   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.171E+04
- LARGEST INCREMENT OF DISP.         9.419E-02   AT NODE         58   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.159       AT NODE         29   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.549E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          14.6       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        2.309E-14   AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  38ms
-
- ***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE 
-             FIRST YIELD AT 8 POINTS
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
-
-
- AVERAGE FORCE                      2.817E+03   TIME AVG. FORCE       5.965E+03
- LARGEST SCALED RESIDUAL FORCE     -2.767E+04   AT NODE         28   DOF  2
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.767E+04
- LARGEST INCREMENT OF DISP.        -0.637       AT NODE         58   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.732       AT NODE         58   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  2.549E-11   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.          14.6       AT NODE        217   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -5.766E-46   AT NODE        203   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  39ms
-
- ***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE 
-             FIRST YIELD AT 189 POINTS
-
- ***WARNING: THE STRAIN INCREMENT IS SO LARGE THAT THE PROGRAM WILL NOT ATTEMPT 
-             THE PLASTICITY CALCULATION AT 17 POINTS
- 
-
- ***NOTE: MATERIAL CALCULATIONS FAILED TO CONVERGE OR WERE NOT ATTEMPTED AT ONE 
-          OR MORE POINTS. CONVERGENCE IS JUDGED UNLIKELY.
-
-
-  INCREMENT    25 STARTS. ATTEMPT NUMBER  2, TIME INCREMENT  0.250    
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2532
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.045e+08
-        SOLVER ELAPSED TIME:  30ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      3.433E+03   TIME AVG. FORCE       5.990E+03
- LARGEST SCALED RESIDUAL FORCE     -5.124E+05   AT NODE         44   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -5.124E+05
- LARGEST INCREMENT OF DISP.         0.141       AT NODE         63   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.170       AT NODE         58   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.293E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         1.066E-13   AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.         42.5       AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2532
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.045e+08
-        SOLVER ELAPSED TIME:  40ms
-
- ***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE 
-             FIRST YIELD AT 48 POINTS
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      3.285E+03   TIME AVG. FORCE       5.984E+03
- LARGEST SCALED RESIDUAL FORCE      3.857E+04   AT NODE         44   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      3.857E+04
- LARGEST INCREMENT OF DISP.         -5.14       AT NODE         63   DOF  1
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        -5.29       AT NODE         63   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.286E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.         1.275E-13   AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -4.046E-14   AT NODE        272   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2532
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.045e+08
-        SOLVER ELAPSED TIME:  45ms
-
- ***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE 
-             FIRST YIELD AT 146 POINTS
-
- ***WARNING: THE STRAIN INCREMENT IS SO LARGE THAT THE PROGRAM WILL NOT ATTEMPT 
-             THE PLASTICITY CALCULATION AT 60 POINTS
- 
-
- ***NOTE: MATERIAL CALCULATIONS FAILED TO CONVERGE OR WERE NOT ATTEMPTED AT ONE 
-          OR MORE POINTS. CONVERGENCE IS JUDGED UNLIKELY.
-
-
-  INCREMENT    25 STARTS. ATTEMPT NUMBER  3, TIME INCREMENT  6.250E-02
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2524
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.319e+08
-        SOLVER ELAPSED TIME:  34ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      3.221E+03   TIME AVG. FORCE       5.982E+03
- LARGEST SCALED RESIDUAL FORCE     -1.988E+03   AT NODE         49   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -1.988E+03
- LARGEST INCREMENT OF DISP.        -1.142E-02   AT NODE          2   DOF  1
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO DISP.       -1.142E-02   AT NODE          2   DOF  1
-   INSTANCE: SI                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.307E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -1.489E-13   AT NODE          1   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -1.489E-13   AT NODE          1   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2524
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.319e+08
-        SOLVER ELAPSED TIME:  46ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      3.215E+03   TIME AVG. FORCE       5.981E+03
- LARGEST SCALED RESIDUAL FORCE      -167.       AT NODE         49   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -167.    
- LARGEST INCREMENT OF DISP.        -1.147E-02   AT NODE          2   DOF  1
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO DISP.       -3.460E-03   AT NODE         49   DOF  1
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.307E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -1.562E-13   AT NODE          1   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -7.335E-15   AT NODE          1   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2524
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.319e+08
-        SOLVER ELAPSED TIME:  38ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
-
-
- AVERAGE FORCE                      3.215E+03   TIME AVG. FORCE       5.981E+03
- LARGEST SCALED RESIDUAL FORCE      -5.20       AT NODE         17   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -5.20    
- LARGEST INCREMENT OF DISP.        -1.147E-02   AT NODE          2   DOF  1
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO DISP.        1.005E-03   AT NODE         58   DOF  1
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION    3.133E-05
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  1.306E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -1.499E-13   AT NODE          1   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        9.631E-15   AT NODE          4   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-          TIME INCREMENT MAY NOW INCREASE TO    9.375E-02
-
- ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED  6.250E-02,  FRACTION OF STEP COMPLETED  0.268    
- STEP TIME COMPLETED        18.8    ,  TOTAL TIME COMPLETED         18.8    
-
-
-  INCREMENT    26 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  9.375E-02
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  51ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      3.327E+03   TIME AVG. FORCE       5.879E+03
- LARGEST SCALED RESIDUAL FORCE      1.151E+05   AT NODE         37   DOF  3
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      1.151E+05
- LARGEST INCREMENT OF DISP.        -7.439E-02   AT NODE         44   DOF  3
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        0.120       AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.306E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -2.063E-48   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        2.248E-13   AT NODE          1   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  34ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      3.216E+03   TIME AVG. FORCE       5.875E+03
- LARGEST SCALED RESIDUAL FORCE     -2.236E+04   AT NODE         44   DOF  3
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.236E+04
- LARGEST INCREMENT OF DISP.        -0.413       AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -0.486       AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.306E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -2.123E-48   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -3.533E-49   AT NODE         71   DOF 11
-   INSTANCE: CU                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  35ms
-
- ***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE 
-             FIRST YIELD AT 60 POINTS
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
-
-
- AVERAGE FORCE                      3.507E+03   TIME AVG. FORCE       5.886E+03
- LARGEST SCALED RESIDUAL FORCE     -4.230E+04   AT NODE         38   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -4.230E+04
- LARGEST INCREMENT OF DISP.          10.3       AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.         10.7       AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.306E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -2.123E-48   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        3.039E-64   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  36ms
-
- ***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE 
-             FIRST YIELD AT 112 POINTS
-
- ***WARNING: THE STRAIN INCREMENT IS SO LARGE THAT THE PROGRAM WILL NOT ATTEMPT 
-             THE PLASTICITY CALCULATION AT 63 POINTS
- 
-
- ***NOTE: MATERIAL CALCULATIONS FAILED TO CONVERGE OR WERE NOT ATTEMPTED AT ONE 
-          OR MORE POINTS. CONVERGENCE IS JUDGED UNLIKELY.
-
-
-  INCREMENT    26 STARTS. ATTEMPT NUMBER  2, TIME INCREMENT  2.344E-02
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  29ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      3.242E+03   TIME AVG. FORCE       5.876E+03
- LARGEST SCALED RESIDUAL FORCE      3.078E+04   AT NODE         37   DOF  3
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      3.078E+04
- LARGEST INCREMENT OF DISP.         3.850E-02   AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        5.028E-02   AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.306E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -2.104E-48   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        5.621E-14   AT NODE          1   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  33ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      3.213E+03   TIME AVG. FORCE       5.875E+03
- LARGEST SCALED RESIDUAL FORCE     -1.125E+04   AT NODE         44   DOF  3
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -1.125E+04
- LARGEST INCREMENT OF DISP.        -3.788E-02   AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.       -7.637E-02   AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.306E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -2.123E-48   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -8.830E-50   AT NODE         71   DOF 11
-   INSTANCE: CU                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  29ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
-
-
- AVERAGE FORCE                      3.248E+03   TIME AVG. FORCE       5.876E+03
- LARGEST SCALED RESIDUAL FORCE     -2.442E+04   AT NODE         49   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE     -2.442E+04
- LARGEST INCREMENT OF DISP.         0.196       AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        0.234       AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.306E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -2.123E-48   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -1.519E-64   AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  29ms
-
- ***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE 
-             FIRST YIELD AT 26 POINTS
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
-
-
- AVERAGE FORCE                      3.254E+03   TIME AVG. FORCE       5.876E+03
- LARGEST SCALED RESIDUAL FORCE      1.956E+04   AT NODE         41   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      1.956E+04
- LARGEST INCREMENT OF DISP.         -4.06       AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        -4.25       AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.306E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -2.123E-48   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.        1.519E-64   AT NODE        271   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  29ms
-
- ***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE 
-             FIRST YIELD AT 89 POINTS
-
- ***WARNING: THE STRAIN INCREMENT IS SO LARGE THAT THE PROGRAM WILL NOT ATTEMPT 
-             THE PLASTICITY CALCULATION AT 29 POINTS
- 
-
- ***NOTE: MATERIAL CALCULATIONS FAILED TO CONVERGE OR WERE NOT ATTEMPTED AT ONE 
-          OR MORE POINTS. CONVERGENCE IS JUDGED UNLIKELY.
-
-
-  INCREMENT    26 STARTS. ATTEMPT NUMBER  3, TIME INCREMENT  5.859E-03
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  30ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      3.213E+03   TIME AVG. FORCE       5.875E+03
- LARGEST SCALED RESIDUAL FORCE      -609.       AT NODE         38   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -609.    
- LARGEST INCREMENT OF DISP.         1.558E-02   AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        1.558E-02   AT NODE         43   DOF  3
-   INSTANCE: CU                                                                              
-          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
-
- AVERAGE HEAT FLUX                  1.306E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -2.123E-48   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -2.123E-48   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
-        SOLVER ELAPSED TIME:  54ms
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
-
-
- AVERAGE FORCE                      3.212E+03   TIME AVG. FORCE       5.875E+03
- LARGEST SCALED RESIDUAL FORCE      -9.40       AT NODE         47   DOF  1
-   INSTANCE: CU                                                                              
-  CORRESPONDING RESIDUAL FORCE      -9.40    
- LARGEST INCREMENT OF DISP.         1.603E-02   AT NODE         36   DOF  3
-   INSTANCE: CU                                                                              
- LARGEST CORRECTION TO DISP.        4.818E-04   AT NODE         36   DOF  3
-   INSTANCE: CU                                                                              
- ESTIMATE OF DISP.    CORRECTION    7.439E-06
-          FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
-
- AVERAGE HEAT FLUX                  1.306E-14   TIME AVG. HEAT FLUX   1.000E-02
- ALL HEAT FLUX RESIDUALS ARE ZERO
- LARGEST INCREMENT OF TEMP.        -2.123E-48   AT NODE         55   DOF 11
-   INSTANCE: SI                                                                              
- LARGEST CORRECTION TO TEMP.       -4.558E-64   AT NODE        436   DOF 11
-   INSTANCE: SI                                                                              
-          THERE IS ZERO HEAT FLUX EVERYWHERE
- 
-
- ***WARNING: THERE IS ZERO HEAT FLUX EVERYWHERE IN THE MODEL BASED ON THE 
-             DEFAULT CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE HEAT FLUX 
-             DURING THE CURRENT ITERATION TO VERIFY THAT THE HEAT FLUX IS SMALL 
-             ENOUGH TO BE TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION 
-             CONTROLS TO RESET THE CRITERION FOR ZERO HEAT FLUX.
-
- MAXIMUM NON-PRESCRIBED INCREMENT IN TEMPERATURE IS    0.00    
-          TIME INCREMENT MAY NOW INCREASE TO    8.789E-03
-
- ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED  5.859E-03,  FRACTION OF STEP COMPLETED  0.268    
- STEP TIME COMPLETED        18.8    ,  TOTAL TIME COMPLETED         18.8    
-
-
-  INCREMENT    27 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  8.789E-03
- 
-	UNSYMMETRIC NEW DIRECT SPARSE SOLVER RUNNING ON
- 	1 HOST x 1 MPI RANK PER HOST x 1 THREAD PER RANK
-        NUMBER OF EQUATIONS:  2508
-        NUMBER OF RHS:        1
-        NUMBER OF FLOPS:      5.351e+08
+        NUMBER OF FLOPS:      8.996e+08
+        SOLVER ELAPSED TIME:  0ms
+
+ ***ERROR: Unable to access the new solver solution.
+
+
+
+     ANALYSIS SUMMARY:
+     TOTAL OF         11  INCREMENTS
+                       0  CUTBACKS IN AUTOMATIC INCREMENTATION
+                      27  ITERATIONS INCLUDING CONTACT ITERATIONS IF PRESENT
+                      26  PASSES THROUGH THE EQUATION SOLVER OF WHICH 
+                      26  INVOLVE MATRIX DECOMPOSITION, INCLUDING
+                       0  DECOMPOSITION(S) OF THE MASS MATRIX
+                       1  REORDERING OF EQUATIONS TO MINIMIZE WAVEFRONT
+                       0  ADDITIONAL RESIDUAL EVALUATIONS FOR LINE SEARCHES
+                       0  ADDITIONAL OPERATOR EVALUATIONS FOR LINE SEARCHES
+                       7  WARNING MESSAGES DURING USER INPUT PROCESSING
+                      26  WARNING MESSAGES DURING ANALYSIS
+                       0  ANALYSIS WARNINGS ARE NUMERICAL PROBLEM MESSAGES
+                       0  ANALYSIS WARNINGS ARE NEGATIVE EIGENVALUE MESSAGES
+                       1  ERROR MESSAGES
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =      5.6    
+       SYSTEM TIME (SEC)    =     0.50    
+       TOTAL CPU TIME (SEC) =      6.1    
+       WALLCLOCK TIME (SEC) =            8
+       MEMORY PEAK (GB)     =            0

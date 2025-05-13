@@ -21,16 +21,16 @@ def fetch_info_from_json(working_dirc, filename):
         info_dict = json.load(f)
     return info_dict
 
-def run_simulation(working_dirc, geometry_info, material_properties, thermal_cycle_info):
+def run_simulation(working_dirc, geometrical_info, material_properties, thermal_cycle_info, meshsize = 10):
     # Change the working directory to WORKING_DIRC
     os.chdir(working_dirc)
     print(f"DEBUG: Changed working directory to {working_dirc}")
 
     # Unpack geometrical information
-    R_SI = geometry_info['R_SI']
-    Y_SI = geometry_info['Y_SI']
-    R0_CU = geometry_info['R0_CU']
-    Y0_CU = geometry_info['Y0_CU']
+    R_SI = geometrical_info['R_SI']
+    Y_SI = geometrical_info['Y_SI']
+    R0_CU = geometrical_info['R0_CU']
+    Y0_CU = geometrical_info['Y0_CU']
 
     # Unpack material properties
     E_CU = material_properties['E_CU']
@@ -222,8 +222,8 @@ def run_simulation(working_dirc, geometry_info, material_properties, thermal_cyc
     contact_edges_cu = cu_part.edges.findAt(((mid_point[0], mid_point[1], 0),))
     contact_edges_si = si_part.edges.findAt(((mid_point[0], mid_point[1], 0),))
 
-    cu_part.seedEdgeBySize(edges=contact_edges_cu, size=10.0, deviationFactor=0.1, constraint=FINER)
-    si_part.seedEdgeBySize(edges=contact_edges_si, size=10.0, deviationFactor=0.1, constraint=FINER)
+    cu_part.seedEdgeBySize(edges=contact_edges_cu, size=meshsize, deviationFactor=0.1, constraint=FINER)
+    si_part.seedEdgeBySize(edges=contact_edges_si, size=meshsize, deviationFactor=0.1, constraint=FINER)
 
     # Generate the meshes
     cu_part.generateMesh()
@@ -255,7 +255,9 @@ CURRENT_DIRC = os.path.dirname(os.path.abspath('run_simulation.py'))
 
 path_dict = fetch_info_from_json(CURRENT_DIRC, 'path_info.json')
 SIMU_DIRC = path_dict['SIMU_DIRC']
-geometry_info = fetch_info_from_json(SIMU_DIRC, 'geometry_info.json')
+geometrical_info = fetch_info_from_json(SIMU_DIRC, 'geometrical_info.json')
 material_properties = fetch_info_from_json(SIMU_DIRC, 'material_properties.json')
 thermal_cycle_info = fetch_info_from_json(SIMU_DIRC, 'thermal_cycle_info.json')
-run_simulation(SIMU_DIRC, geometry_info, material_properties, thermal_cycle_info)
+mesh_info = fetch_info_from_json(SIMU_DIRC, 'mesh_info.json')
+mesh_size = mesh_info['mesh_size']
+run_simulation(SIMU_DIRC, geometrical_info, material_properties, thermal_cycle_info, mesh_size)
