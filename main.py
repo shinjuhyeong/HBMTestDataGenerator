@@ -282,7 +282,7 @@ for r1 in range(10, 20, 2):
                     simulation_conditions.append([r1, r2, r3, y2])
 random.shuffle(simulation_conditions)
 
-total_cycles_conditions = [30, 50]
+total_cycles_conditions = [25, 50]
 
 for total_cycles in total_cycles_conditions:
     initialize_directories()
@@ -442,7 +442,7 @@ for total_cycles in total_cycles_conditions:
                 if [r1, r2, r3] not in failed_conditions_for_same_y:
                     failed_conditions_for_same_y.append([r1, r2, r3])
             else:
-                imagefile_dirc = create_coupled_traindata(TRAINING_DATASET_DIRC, IMAGES_DIRC, geometrical_info, resulted_crack_data, 10, scaler)
+                imagefile_dirc = create_coupled_traindata(TRAINING_DATASET_DIRC, IMAGES_DIRC, geometrical_info, resulted_crack_data, 1, scaler)
                 logging.info(f"Image file and report created at: {imagefile_dirc}")
 
         except Exception as e:
