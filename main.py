@@ -225,15 +225,10 @@ CURRENT_DIRC = os.path.dirname(os.path.abspath(__file__)) if '__file__' in globa
 SIMU_DIRC = os.path.join(CURRENT_DIRC, 'SIMU_DIRC')
 TRAINING_DATASET_DIRC = os.path.join(CURRENT_DIRC, 'TRAINING_DATASET')
 IMAGES_DIRC = os.path.join(TRAINING_DATASET_DIRC, 'IMAGES')
-
-
-# Create the log file as 'hbmtestdatagenerator-yyyy-mm-dd_hh-mm-ss.log'
-
 LOG_DIRC = os.path.join(CURRENT_DIRC, 'logs')
+
 if not os.path.exists(LOG_DIRC):
     os.makedirs(LOG_DIRC)
-
-
 now = datetime.now()
 formatted_date = now.strftime("%Y-%m-%d-%H-%M-%S")
 log_filename = os.path.join(LOG_DIRC, f'hbmtestdatagenerator-{formatted_date}.log')
@@ -285,31 +280,35 @@ for r1 in range(10, 20, 2):
                 else:               
                     simulation_conditions.append([r1, r2, r3, y2])
 
-total_cycles_conditions = [13, 20, 50]
+total_cycles_conditions = [10, 20, 50]
 
 for total_cycles in total_cycles_conditions:
     initialize_directories()
     #read result.csv file and check completed simulation, save to completed_simulation_list
     resultsfile_dirc = os.path.join(TRAINING_DATASET_DIRC, 'results.csv')
     completed_conditions = fetch_completed_conditions_from_csv(resultsfile_dirc)
-
-    previous_y2 = -1 #never same with y2 for initiallization
-
+    failed_conditions_for_same_y = []
+    
     for condition in simulation_conditions:  
         r1, r2, r3, y2 = condition
         #실패한 y와 같은 y에 대해서는 실패할 가능성이 높음 : wiseflag
-        if previous_y2 != y2:
-            wiseflag = True
         
         logging.info(f"Try a simulation for R0_CU: {r1}, {r2}, {r3} and Y0_CU: {y2}, total_cycles: {total_cycles}")
-        
+
         complete_flag = False
+        failed_for_same_y_flag = False
+
         for completed_condition in completed_conditions:
             if [r1, r2, r3] == completed_condition[0] and y2 == completed_condition[1][1]:
                 logging.info(f"Simulation already completed for R0_CU: {r1}, {r2}, {r3} and Y0_CU: {y2}")
                 complete_flag = True
+                break
 
-        if complete_flag or (not wiseflag):
+        if [r1, r2, r3] in failed_conditions_for_same_y:
+            logging.info(f"Simulation previously failed for R0_CU but different y2, Skip for current cycle number: {r1}, {r2}, {r3}")
+            failed_for_same_y_flag = True
+
+        if complete_flag or failed_for_same_y_flag:
             continue
         
         initialize_directories()
@@ -374,6 +373,7 @@ for total_cycles in total_cycles_conditions:
                     for line in log_file:
                         if "Learning" in line:
                             learning_error = True
+
             if learning_error == True:
                 logging.info("Learning Edition Error has occurred, Try for a bigger node")        
                 initialize_directories()
@@ -437,12 +437,11 @@ for total_cycles in total_cycles_conditions:
             scaler = 10
             resulted_crack_data = crackdata_from_reports(SIMU_DIRC, scaler)
             if resulted_crack_data == []:
-                wiseflag = False
-                previous_y2 = y2
+                if [r1, r2, r3] not in failed_conditions_for_same_y:
+                    failed_conditions_for_same_y.append([r1, r2, r3])
             else:
                 imagefile_dirc = create_coupled_traindata(TRAINING_DATASET_DIRC, IMAGES_DIRC, geometrical_info, resulted_crack_data, 3, scaler)
                 logging.info(f"Image file and report created at: {imagefile_dirc}")
-                previous_y2 = y2
 
         except Exception as e:
             logging.error(f"An error occurred: {e}")
