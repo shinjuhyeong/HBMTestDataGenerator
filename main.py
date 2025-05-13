@@ -4,6 +4,7 @@ import subprocess
 import json
 import logging
 from datetime import datetime
+import random
 
 # Store the initial current directory at the start of the script
 def initialize_directories(makelog=True):
@@ -132,16 +133,16 @@ def create_coupled_traindata(training_dataset_dirc, images_dirc, geometrical_inf
     imagefile_dirc, size = create_image(images_dirc, geometrical_info, scaler)
     image_path_relative = os.path.relpath(imagefile_dirc, os.path.dirname(csvfile_dirc))
     with open(csvfile_dirc, 'a') as csv_file:
-        csv_file.write(f"{image_path_relative}, ")
         for crack in coupled_crackdata_trunc:
+            csv_file.write(f"{image_path_relative}, ")
             crack_time, r, y = crack
             # Save the results to the CSV file, with respect to the image file
             r_coord = r * scaler
             y_coord = size[1] - (y * scaler + 1)
             csv_file.write(f"{crack_time}, {r_coord}, {y_coord}, ")
+            csv_file.write("\n")
             if makelog:
                 logging.info(f"Crack data saved: {crack_time}, {r_coord}, {y_coord}")
-        csv_file.write("\n")
 
     return imagefile_dirc
 
@@ -279,8 +280,9 @@ for r1 in range(10, 20, 2):
                     continue
                 else:               
                     simulation_conditions.append([r1, r2, r3, y2])
+random.shuffle(simulation_conditions)
 
-total_cycles_conditions = [10, 20, 50]
+total_cycles_conditions = [30, 50]
 
 for total_cycles in total_cycles_conditions:
     initialize_directories()
@@ -440,7 +442,7 @@ for total_cycles in total_cycles_conditions:
                 if [r1, r2, r3] not in failed_conditions_for_same_y:
                     failed_conditions_for_same_y.append([r1, r2, r3])
             else:
-                imagefile_dirc = create_coupled_traindata(TRAINING_DATASET_DIRC, IMAGES_DIRC, geometrical_info, resulted_crack_data, 3, scaler)
+                imagefile_dirc = create_coupled_traindata(TRAINING_DATASET_DIRC, IMAGES_DIRC, geometrical_info, resulted_crack_data, 10, scaler)
                 logging.info(f"Image file and report created at: {imagefile_dirc}")
 
         except Exception as e:
