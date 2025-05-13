@@ -1,0 +1,9 @@
+# -*- coding: mbcs -*-
+from mesh import *
+from step import *
+from interaction import *
+mdb.jobs['ThermalAnalysis'].submit(consistencyChecking=OFF)
+from job import *
+#* Learning Edition is restricted to 1,000 nodes
+#* Learning Edition is restricted to 1,000 nodes
+#* Learning Edition is restricted to 1,000 nodes

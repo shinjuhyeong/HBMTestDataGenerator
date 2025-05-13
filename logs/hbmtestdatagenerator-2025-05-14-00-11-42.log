@@ -1,0 +1,25 @@
+2025-05-14 00:11:42,518:INFO:Log file generated at 2025-05-14-00-11-42
+2025-05-14 00:11:45,766:INFO:1st user input for asking removal: y
+2025-05-14 00:11:46,845:INFO:2nd user input for asking removal: y
+2025-05-14 00:11:46,846:INFO:Deleted folder: C:\Users\user\Desktop\HBMTestDataGenerator\TRAINING_DATASET
+2025-05-14 00:11:46,847:INFO:Current Directory: C:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-14 00:11:46,862:INFO:Cleared all files and subdirectories in folder: C:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-14 00:11:46,863:INFO:Created folder: C:\Users\user\Desktop\HBMTestDataGenerator\TRAINING_DATASET
+2025-05-14 00:11:46,865:INFO:Created folder: C:\Users\user\Desktop\HBMTestDataGenerator\TRAINING_DATASET\IMAGES
+2025-05-14 00:11:46,865:INFO:Try a simulation for R0_CU: 18, 22, 25 and Y0_CU: 50, total_cycles: 25
+2025-05-14 00:11:46,865:INFO:Current Directory: C:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-14 00:11:46,865:INFO:Cleared all files and subdirectories in folder: C:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-14 00:11:46,871:INFO:Running simulation script: abaqus cae noGUI=run_simulation.py
+2025-05-14 00:11:49,389:INFO:Learning Edition Error has occurred, Try for a bigger node
+2025-05-14 00:11:49,390:INFO:Current Directory: C:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-14 00:11:49,391:INFO:Cleared all files and subdirectories in folder: C:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-14 00:14:12,953:INFO:Running simulation script: abaqus python create_report.py
+2025-05-14 00:14:15,727:INFO:time, centroid_(r,y): 108.77093505859375, 14.99627265866461, 92.83364677429199
+2025-05-14 00:14:15,728:INFO:Created empty CSV file: C:\Users\user\Desktop\HBMTestDataGenerator\TRAINING_DATASET\results.csv
+2025-05-14 00:14:16,783:INFO:Image saved at: C:\Users\user\Desktop\HBMTestDataGenerator\TRAINING_DATASET\IMAGES\R_SI_100_Y_SI_100_R0_CU_18_22_25_Y0_CU_0_50_100.bmp
+2025-05-14 00:14:16,784:INFO:Crack data saved: 108.77093505859375, 149.9627265866461, 70.66353225708008
+2025-05-14 00:14:16,784:INFO:Image file and report created at: C:\Users\user\Desktop\HBMTestDataGenerator\TRAINING_DATASET\IMAGES\R_SI_100_Y_SI_100_R0_CU_18_22_25_Y0_CU_0_50_100.bmp
+2025-05-14 00:14:16,785:INFO:Try a simulation for R0_CU: 14, 17, 20 and Y0_CU: 50, total_cycles: 25
+2025-05-14 00:14:16,785:INFO:Current Directory: C:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-14 00:14:16,795:INFO:Cleared all files and subdirectories in folder: C:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-14 00:14:16,799:INFO:Running simulation script: abaqus cae noGUI=run_simulation.py

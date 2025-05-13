@@ -442,7 +442,7 @@ for total_cycles in total_cycles_conditions:
                 if [r1, r2, r3] not in failed_conditions_for_same_y:
                     failed_conditions_for_same_y.append([r1, r2, r3])
             else:
-                imagefile_dirc = create_coupled_traindata(TRAINING_DATASET_DIRC, IMAGES_DIRC, geometrical_info, resulted_crack_data, 1, scaler)
+                imagefile_dirc = create_coupled_traindata(TRAINING_DATASET_DIRC, IMAGES_DIRC, geometrical_info, resulted_crack_data, 100, scaler)
                 logging.info(f"Image file and report created at: {imagefile_dirc}")
 
         except Exception as e:
