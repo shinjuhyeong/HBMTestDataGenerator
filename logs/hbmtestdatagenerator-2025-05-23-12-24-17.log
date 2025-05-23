@@ -1,0 +1,34 @@
+2025-05-23 12:24:17,238:INFO:Log file generated at 2025-05-23-12-24-17
+2025-05-23 12:24:19,274:INFO:1st user input for asking removal: y
+2025-05-23 12:24:19,974:INFO:2nd user input for asking removal: y
+2025-05-23 12:24:19,975:INFO:Deleted folder: c:\Users\user\Desktop\HBMTestDataGenerator\TRAINING_DATASET
+2025-05-23 12:24:20,795:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:24:20,805:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:24:20,805:INFO:Created folder: c:\Users\user\Desktop\HBMTestDataGenerator\TRAINING_DATASET
+2025-05-23 12:24:20,808:INFO:Created folder: c:\Users\user\Desktop\HBMTestDataGenerator\TRAINING_DATASET\IMAGES
+2025-05-23 12:24:20,808:INFO:Try a simulation for Geometry: 2.5, 4.0, 0.75, 1.0, Properties: 1.6575e-05, 2.94e-06, 157.5, total_cycles: 10
+2025-05-23 12:24:20,808:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:24:20,808:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:24:20,813:INFO:Running simulation script: abaqus cae noGUI=run_simulation2d.py
+2025-05-23 12:24:27,853:INFO:Learning Edition Error has occurred, Try for a bigger node
+2025-05-23 12:24:27,853:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:24:27,857:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:25:08,283:INFO:Running simulation script: abaqus python create_report.py
+2025-05-23 12:25:13,058:INFO:Try crackdata_from_reports
+2025-05-23 12:25:13,059:INFO:Try a simulation for Geometry: 4.0, 2.5, 0.5, 0.75, Properties: 1.785e-05, 2.94e-06, 153.75, total_cycles: 10
+2025-05-23 12:25:13,059:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:25:13,073:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:25:13,081:INFO:Running simulation script: abaqus cae noGUI=run_simulation2d.py
+2025-05-23 12:25:20,594:INFO:Learning Edition Error has occurred, Try for a bigger node
+2025-05-23 12:25:20,594:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:25:20,596:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:26:12,311:INFO:Running simulation script: abaqus python create_report.py
+2025-05-23 12:26:15,698:INFO:Try crackdata_from_reports
+2025-05-23 12:26:15,698:INFO:Try a simulation for Geometry: 1.75, 3.25, 0.5, 1.0, Properties: 1.785e-05, 2.8699999999999996e-06, 150.0, total_cycles: 10
+2025-05-23 12:26:15,698:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:26:15,705:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:26:15,709:INFO:Running simulation script: abaqus cae noGUI=run_simulation2d.py
+2025-05-23 12:26:21,338:INFO:Learning Edition Error has occurred, Try for a bigger node
+2025-05-23 12:26:21,338:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:26:21,343:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:26:26,486:INFO:Running simulation script: abaqus python create_report.py

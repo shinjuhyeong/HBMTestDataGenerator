@@ -1,0 +1,262 @@
+1
+
+   Abaqus Learning Edition 2024                                  Date 23-May-2025   Time 12:31:52
+   
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+          Thermal and mechanical analysis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+  *Element, type=CAX3T
+  *Element, type=CAX4T
+  *Elset, elset=ASSEMBLY_CU_ALLSURFACECU
+  *Elset, elset=ASSEMBLY_CU_CENTERLINECU
+  *Elset, elset=ASSEMBLY_CU_CONTACTLINECU
+  *Element, type=CAX3T
+  *Element, type=CAX4T
+  *Elset, elset=ASSEMBLY_SI_ALLSURFACESI
+  *Elset, elset=ASSEMBLY_SI_CONTACTLINESI
+  *Elset, elset=ASSEMBLY_SI_LATERALLINESI
+  *coupledtemperature-displacement, creep=NONE, deltmx=1
+  *material, name=CU
+  *conductivity
+  *damageinitiation, criterion=DUCTILE
+  *damageevolution, type=DISPLACEMENT
+  *density
+  *elastic
+  *expansion
+  *plastic
+  *specificheat
+
+ ***WARNING: THE ABSOLUTE ZERO TEMPERATURE HAS NOT BEEN SPECIFIED FOR COMPUTING 
+             INTERNAL THERMAL ENERGY USING THE ABSOLUTE ZERO PARAMETER ON THE 
+             *PHYSICAL CONSTANTS OPTION. A DEFAULT VALUE OF 0.0000 WILL BE 
+             ASSUMED.
+  *material, name=SI
+  *conductivity
+  *density
+  *elastic
+  *expansion
+  *specificheat
+  *solidsection, elset=ASSEMBLY_CU_ALLSURFACECU, material=CU
+  *solidsection, elset=ASSEMBLY_SI_ALLSURFACESI, material=SI
+  *solidsection, elset=ASSEMBLY_CU_ALLSURFACECU, material=CU
+  *solidsection, elset=ASSEMBLY_SI_ALLSURFACESI, material=SI
+  *tie, name=ASSEMBLY_CUSITIE, adjust=YES
+  *tie, name=ASSEMBLY_CUSITIE, adjust=YES
+  *surface, type=NODE, name=ASSEMBLY_CU_CONTACTLINECU_CNS_
+  *surface, type=NODE, name=ASSEMBLY_SI_CONTACTLINESI_CNS_
+  *surface, type=NODE, name=ASSEMBLY_CU_CONTACTLINECU_CNS_
+  *surface, type=NODE, name=ASSEMBLY_SI_CONTACTLINESI_CNS_
+  *tie, name=ASSEMBLY_CUSITIE, adjust=YES
+  *tie, name=ASSEMBLY_CUSITIE, adjust=YES
+  *boundary, fixed
+  *boundary, fixed
+  *boundary, amplitude=THERMALCYCLE
+  *boundary, amplitude=THERMALCYCLE
+  *boundary, fixed
+  *boundary, fixed
+  *boundary, amplitude=THERMALCYCLE
+  *boundary, amplitude=THERMALCYCLE
+  *tie, name=ASSEMBLY_CUSITIE, adjust=YES
+
+ ***WARNING: SECONDARY SURFACE ASSEMBLY_SI_CONTACTLINESI_CNS_ IS A NODE-BASED 
+             SURFACE USED WITH SURFACE TO SURFACE APPROACH.  IN ORDER TO OBTAIN 
+             IMPROVED STRESS ACCURACY WITH THIS APPROACH, AN ELEMENT-BASED 
+             SURFACE SHOULD BE USED INSTEAD.
+
+
+  SECONDARY: ASSEMBLY_SI_CONTACTLINESI_CNS_                                                  
+  MAIN :     ASSEMBLY_CU_CONTACTLINECU_CNS_                                                  
+              DISTANCE
+   NODE       ADJUSTED    REMARKS/WARNINGS
+
+        92   9.16242E-02  ADJUSTED TO (  14.103    ,  5.6837    ).
+        93   1.49200E-02  ADJUSTED TO (  13.086    ,  11.490    ).
+        94   1.58891E-02  ADJUSTED TO (  12.932    ,  17.476    ).
+        95   1.26897E-02  ADJUSTED TO (  13.400    ,  23.448    ).
+        96   1.48632E-02  ADJUSTED TO (  16.872    ,  47.166    ).
+        97   3.01130E-02  ADJUSTED TO (  17.069    ,  65.113    ).
+        98   2.57779E-02  ADJUSTED TO (  15.209    ,  76.944    ).
+        99   8.63854E-03  ADJUSTED TO (  12.220    ,  88.549    ).
+       143   7.12110E-03  ADJUSTED TO (  14.228    ,  29.383    ).
+       145   7.21329E-03  ADJUSTED TO (  16.124    ,  41.220    ).
+       146   2.19056E-02  ADJUSTED TO (  17.326    ,  53.141    ).
+       147   2.73259E-02  ADJUSTED TO (  17.405    ,  59.132    ).
+       148   2.96305E-02  ADJUSTED TO (  16.322    ,  71.057    ).
+       149   1.87529E-02  ADJUSTED TO (  13.808    ,  82.770    ).
+
+
+
+
+ ***WARNING: FOR *TIE PAIR 
+             (ASSEMBLY_SI_CONTACTLINESI_CNS_-ASSEMBLY_CU_CONTACTLINECU_CNS_), 
+             ADJUSTED NODES WITH VERY SMALL ADJUSTMENTS WERE NOT PRINTED. 
+             SPECIFY *PREPRINT,MODEL=YES FOR COMPLETE PRINTOUT.
+
+ ***WARNING: 14 nodes have been adjusted. The nodes have been identified in 
+             node set WarnNodeAdjust.
+  *tie, name=ASSEMBLY_CUSITIE, adjust=YES
+  *tie, name=ASSEMBLY_CUSITIE, adjust=YES
+  *surface, type=NODE, name=ASSEMBLY_CU_CONTACTLINECU_CNS_
+  *surface, type=NODE, name=ASSEMBLY_SI_CONTACTLINESI_CNS_
+  *tie, name=ASSEMBLY_CUSITIE, adjust=YES
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *step, name=TCTCondition, nlgeom=NO, inc=100000
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *step, name=TCTCondition, nlgeom=NO, inc=100000
+  *step, name=TCTCondition, nlgeom=NO, inc=100000
+  *coupledtemperature-displacement, creep=NONE, deltmx=1
+  *boundary, amplitude=THERMALCYCLE
+  *boundary, amplitude=THERMALCYCLE
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *endstep
+  *boundary, fixed
+
+ ***WARNING: THE FIXED PARAMETER IS IGNORED AT THE MODEL LEVEL
+  *boundary, fixed
+
+ ***WARNING: THE FIXED PARAMETER IS IGNORED AT THE MODEL LEVEL
+  *step, name=TCTCondition, nlgeom=NO, inc=100000
+  *coupledtemperature-displacement, creep=NONE, deltmx=1
+  *boundary, amplitude=THERMALCYCLE
+  *boundary, amplitude=THERMALCYCLE
+  *endstep
+
+ ***WARNING: Boundary conditions are specified on inactive dof 3 at 41 nodes. 
+             The nodes have been identified in node set WarnNodeBCInactiveDof3.
+
+ ***WARNING: Boundary conditions are specified on inactive dof greater than 6 
+             at 18 nodes. The nodes have been identified in node set 
+             WarnNodeBCInactiveDofAbove6.
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                   335
+          NUMBER OF NODES IS                                      387
+          NUMBER OF NODES DEFINED BY THE USER                     387
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                 1161
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =     0.40    
+       SYSTEM TIME (SEC)    =      0.0    
+       TOTAL CPU TIME (SEC) =     0.40    
+       WALLCLOCK TIME (SEC) =            1
+1
+
+   Abaqus Learning Edition 2024                                  Date 23-May-2025   Time 12:31:54
+   
+
+     Thermal and mechanical analysis                                                           STEP    1  INCREMENT    1
+                                                                                          TIME COMPLETED IN THIS STEP   0.00    
+
+
+                        S T E P       1     C O U P L E D - T E M P E R A T U R E - D I S P L A C E M E N T   A N A L Y S I S
+
+
+                                                                                          
+
+     AUTOMATIC TIME CONTROL WITH -
+          A SUGGESTED INITIAL TIME INCREMENT OF                0.100    
+          AND A TOTAL TIME PERIOD OF                            105.    
+          THE MINIMUM TIME INCREMENT ALLOWED IS                1.000E-05
+          THE MAXIMUM TIME INCREMENT ALLOWED IS                 1.00    
+
+          CREEP AND SWELLING EFFECTS ARE OMITTED IN THIS STEP
+
+     THE SIZE OF THE TIME INCREMENT IS CONTROLLED BY -
+          THE TEMPERATURE CHANGE PER INCREMENT NOT EXCEEDING            1.00    
+          THE RATE DEPENDENCY WILL BE CONSIDERED IN THIS STEP
+
+          CREEP AND SWELLING EFFECTS WILL BE IGNORED.
+
+          UNSYMMETRIC MATRIX STORAGE AND SOLUTION WILL BE USED
+  
+                   M E M O R Y   E S T I M A T E
+  
+ PROCESS      FLOATING PT       MINIMUM MEMORY        MEMORY TO
+              OPERATIONS           REQUIRED          MINIMIZE I/O
+             PER ITERATION           (MB)               (MB)
+  
+     1          5.15E+06               17                 25
+  
+ NOTE:
+      (1) SINCE ABAQUS DOES NOT PRE-ALLOCATE MEMORY AND ONLY ALLOCATES MEMORY AS NEEDED DURING THE ANALYSIS,
+          THE MEMORY REQUIREMENT PRINTED HERE CAN ONLY BE VIEWED AS A GENERAL GUIDELINE BASED ON THE BEST
+          KNOWLEDGE AVAILABLE AT THE BEGINNING OF A STEP BEFORE THE SOLUTION PROCESS HAS BEGUN.
+      (2) THE ESTIMATE IS NORMALLY UPDATED AT THE BEGINNING OF EVERY STEP. IT IS THE MAXIMUM VALUE OF THE
+          ESTIMATE FROM THE CURRENT STEP TO THE LAST STEP OF THE ANALYSIS, WITH UNSYMMETRIC SOLUTION TAKEN
+          INTO ACCOUNT IF APPLICABLE. 
+      (3) SINCE THE ESTIMATE IS BASED ON THE ACTIVE DEGREES OF FREEDOM IN THE FIRST ITERATION OF THE 
+          CURRENT STEP, THE MEMORY ESTIMATE MIGHT BE SIGNIFICANTLY DIFFERENT THAN ACTUAL USAGE FOR 
+          PROBLEMS WITH SUBSTANTIAL CHANGES IN ACTIVE DEGREES OF FREEDOM BETWEEN STEPS (OR EVEN WITHIN
+          THE SAME STEP). EXAMPLES ARE: PROBLEMS WITH SIGNIFICANT CONTACT CHANGES, PROBLEMS WITH MODEL
+          CHANGE, PROBLEMS WITH BOTH STATIC STEP AND STEADY STATE DYNAMIC PROCEDURES WHERE ACOUSTIC 
+          ELEMENTS WILL ONLY BE ACTIVATED IN THE STEADY STATE DYNAMIC STEPS.
+      (4) FOR MULTI-PROCESS EXECUTION, THE ESTIMATED VALUE OF FLOATING POINT OPERATIONS FOR EACH PROCESS
+          IS BASED ON AN INITIAL SCHEDULING OF OPERATIONS AND MIGHT NOT REFLECT THE ACTUAL FLOATING 
+          POINT OPERATIONS COMPLETED ON EACH PROCESS. OPERATIONS ARE DYNAMICALLY BALANCED DURING EXECUTION, 
+          SO THE ACTUAL BALANCE OF OPERATIONS BETWEEN PROCESSES IS EXPECTED TO BE BETTER THAN THE ESTIMATE
+          PRINTED HERE.
+      (5) THE UPPER LIMIT OF MEMORY THAT CAN BE ALLOCATED BY ABAQUS WILL IN GENERAL DEPEND ON THE VALUE OF
+          THE "MEMORY" PARAMETER AND THE AMOUNT OF PHYSICAL MEMORY AVAILABLE ON THE MACHINE. PLEASE SEE
+          THE "ABAQUS ANALYSIS USER'S MANUAL" FOR MORE DETAILS. THE ACTUAL USAGE OF MEMORY AND OF DISK
+          SPACE FOR SCRATCH DATA WILL DEPEND ON THIS UPPER LIMIT AS WELL AS THE MEMORY REQUIRED TO MINIMIZE
+          I/O. IF THE MEMORY UPPER LIMIT IS GREATER THAN THE MEMORY REQUIRED TO MINIMIZE I/O, THEN THE ACTUAL
+          MEMORY USAGE WILL BE CLOSE TO THE ESTIMATED "MEMORY TO MINIMIZE I/O" VALUE, AND THE SCRATCH DISK
+          USAGE WILL BE CLOSE-TO-ZERO; OTHERWISE, THE ACTUAL MEMORY USED WILL BE CLOSE TO THE PREVIOUSLY
+          MENTIONED MEMORY LIMIT, AND THE SCRATCH DISK USAGE WILL BE ROUGHLY PROPORTIONAL TO THE DIFFERENCE
+          BETWEEN THE ESTIMATED "MEMORY TO MINIMIZE I/O" AND THE MEMORY UPPER LIMIT. HOWEVER ACCURATE
+          ESTIMATE OF THE SCRATCH DISK SPACE IS NOT POSSIBLE.
+      (6) USING "*RESTART, WRITE" CAN GENERATE A LARGE AMOUNT OF DATA WRITTEN IN THE WORK DIRECTORY.
+
+
+          THE ANALYSIS IS ENDED BECAUSE OF THE PROBLEMS ENCOUNTERED
+          LOOK AT THE MSG FILE FOR THE CAUSE OF THE TERMINATION
+
+
+
+                              ANALYSIS IS ENDED
+                              WITH      1 ERROR MESSAGES ON THE MSG FILE
+                              AND       8 WARNING MESSAGES ON THE DAT FILE
+                              AND     862 WARNING MESSAGES ON THE MSG FILE
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =      29.    
+       SYSTEM TIME (SEC)    =      3.5    
+       TOTAL CPU TIME (SEC) =      32.    
+       WALLCLOCK TIME (SEC) =           42

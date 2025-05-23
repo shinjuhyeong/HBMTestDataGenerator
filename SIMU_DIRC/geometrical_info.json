@@ -1,1 +1,1 @@
-{"R_SI": 100, "Y_SI": 100, "R0_CU": [14, 17, 20], "Y0_CU": [0, 50, 100]}
+{"R0": 1.75, "RD": 3.25, "S0_val": 0.5, "SD_val": 1.0, "curvature_pos_factor": 0.5, "Y_SI": 100.0, "R_SI": 100.0, "centerline_offset_top": 0.0, "centerline_offset_bottom": 0.0, "C_val": -0.2, "F1": 10.0, "F2": 5.0}

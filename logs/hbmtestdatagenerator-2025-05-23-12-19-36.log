@@ -1,0 +1,21 @@
+2025-05-23 12:19:36,275:INFO:Log file generated at 2025-05-23-12-19-36
+2025-05-23 12:21:17,443:INFO:1st user input for asking removal: & C:/Users/user/AppData/Local/Programs/Python/Python313/python.exe c:/Users/user/Desktop/HBMTestDataGenerator/main2d.py
+2025-05-23 12:21:18,403:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:21:18,406:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:21:18,431:INFO:Try a simulation for Geometry: 2.5, 4.0, 0.75, 1.0, total_cycles: 10
+2025-05-23 12:21:18,432:INFO:Simulation already completed for Geometry: 2.5, 4.0, 0.75, 1.0,1.6575e-05,2.94e-06,157.5
+2025-05-23 12:21:18,432:INFO:Try a simulation for Geometry: 4.0, 2.5, 0.5, 0.75, total_cycles: 10
+2025-05-23 12:21:18,432:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:21:18,432:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:21:18,436:INFO:Running simulation script: abaqus cae noGUI=run_simulation2d.py
+2025-05-23 12:21:24,560:INFO:Learning Edition Error has occurred, Try for a bigger node
+2025-05-23 12:21:24,560:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:21:24,562:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:22:03,025:INFO:Running simulation script: abaqus python create_report.py
+2025-05-23 12:22:06,708:INFO:Try a simulation for Geometry: 1.75, 3.25, 0.5, 1.0, total_cycles: 10
+2025-05-23 12:22:06,708:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:22:06,717:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC
+2025-05-23 12:22:06,724:INFO:Running simulation script: abaqus cae noGUI=run_simulation2d.py
+2025-05-23 12:22:13,080:INFO:Learning Edition Error has occurred, Try for a bigger node
+2025-05-23 12:22:13,080:INFO:Current Directory: c:\Users\user\Desktop\HBMTestDataGenerator
+2025-05-23 12:22:13,082:INFO:Cleared all files and subdirectories in folder: c:\Users\user\Desktop\HBMTestDataGenerator\SIMU_DIRC

@@ -1,0 +1,12 @@
+Analysis initiated from SIMULIA established products
+Abaqus JOB ThermalAnalysis
+Abaqus Learning Edition 2024
+Begin Analysis Input File Processor
+5/23/2025 12:31:52 PM
+Run pre.exe
+5/23/2025 12:31:53 PM
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+5/23/2025 12:31:53 PM
+Run standard.exe
+PipeWrite failed 232
