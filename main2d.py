@@ -341,7 +341,7 @@ if os.path.exists('path_info.json'):
 
 create_info_json(CURRENT_DIRC, path_dict, 'path_info.json')
 
-
+'''
 # ASK USER FOR REMOVAL OF TRAINING_DATASET_DIRC
 if os.path.exists(TRAINING_DATASET_DIRC):
     print(f"Do you want to remove {TRAINING_DATASET_DIRC} and its contents? (y/n)")
@@ -361,6 +361,7 @@ if os.path.exists(TRAINING_DATASET_DIRC):
                     os.rmdir(dir_path)
             os.rmdir(TRAINING_DATASET_DIRC)
             logging.info(f"Deleted folder: {TRAINING_DATASET_DIRC}")
+'''
 #---------------------------------------------------------------#
 
 #make experiment_conditions
